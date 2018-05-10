@@ -8,7 +8,7 @@ return array (
   'APP_TABLES' => '',
   'TPL' => 
   array (
-    'TPL_TEMPLATE_PATH' => 'default',
+    'TPL_TEMPLATE_PATH' => 'qhdnrra',
     'TPL_TEMPLATE_PATH_MOBILE' => 'default',
   ),
 );

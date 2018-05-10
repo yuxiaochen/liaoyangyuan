@@ -1,0 +1,152 @@
+/*-----------------------全局样式表------------------------*/
+body {
+	margin: 0px;
+	margin: 0px;
+    font-family:'Microsoft YaHei','微软雅黑';
+
+}
+
+TD { font:12px; COLOR:#464646;line-height:22px;}
+
+/*-----------------------有链接区------------------------*/
+
+A.fontgery12:link {COLOR: #464646; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px; }
+A.fontgery12:visited {COLOR: #464646; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px;}
+A.fontgery12:hover {COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px;}
+A.fontgery12:active {COLOR: #464646; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px;}
+
+A.fontgery12_bold:link {COLOR: #464646; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px;font-weight: bold; }
+A.fontgery12_bold:visited {COLOR: #464646; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px;font-weight: bold;}
+A.fontgery12_bold:hover {COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px;font-weight: bold;}
+A.fontgery12_bold:active {COLOR: #464646; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px;font-weight: bold;}
+
+A.fontred12:link {COLOR: #FF0000; FONT-SIZE: 12px; line-height:22px;TEXT-DECORATION: none;}
+A.fontred12:visited {COLOR: #FF0000; FONT-SIZE: 12px; line-height:22px;TEXT-DECORATION: none;}
+A.fontred12:hover {COLOR: #FF0000; FONT-SIZE: 12px; line-height:22px;TEXT-DECORATION: none;}
+A.fontred12:active {COLOR: #FF0000; FONT-SIZE: 12px; line-height:22px;TEXT-DECORATION: none;}
+
+A.fontred12_bold:link {COLOR: #FF0000; FONT-SIZE: 12px; font-weight:bold; TEXT-DECORATION: none;line-height:22px;}
+A.fontred12_bold:visited {COLOR: #FF0000; FONT-SIZE: 12px; font-weight:bold; TEXT-DECORATION: none;line-height:22px;}
+A.fontred12_bold:hover {COLOR: #ffffff; FONT-SIZE: 12px; font-weight:bold; TEXT-DECORATION: none;line-height:22px;}
+A.fontred12_bold:active {COLOR: #FF0000; FONT-SIZE: 12px; font-weight:bold; TEXT-DECORATION: none;line-height:22px;}
+
+A.fontwhite12:link {COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px; }
+A.fontwhite12:visited {COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px; }
+A.fontwhite12:hover {COLOR: #FF0000; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px;}
+A.fontwhite12:active {COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px; }
+
+A.fontwhite12_bold:link {COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px; font-weight:bold;}
+A.fontwhite12_bold:visited {COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px; font-weight:bold;}
+A.fontwhite12_bold:hover {COLOR: #FF0000; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px; font-weight:bold;}
+A.fontwhite12_bold:active {COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:22px; font-weight:bold;}
+
+A.fontgrey14:link {COLOR: #464646; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:25px;}
+A.fontgrey14:visited {COLOR: #464646; FONT-SIZE: 14px; TEXT-DECORATION:none;line-height:25px;}
+A.fontgrey14:hover {COLOR: #FF0000; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:25px;}
+A.fontgrey14:active {COLOR: #464646; FONT-SIZE: 14px; TEXT-DECORATION:none;line-height:25px;}
+
+A.fontblack12:link {COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:24px;}
+A.fontblack12:visited {COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION:none;line-height:24px;}
+A.fontblack12:hover {COLOR: #FF0000; FONT-SIZE: 12px; TEXT-DECORATION: none;line-height:24px;}
+A.fontblack12:active {COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION:none;line-height:24px;}
+
+A.fontgrey14_bold:link {COLOR: #464646; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; font-weight: bold;}
+A.fontgrey14_bold:visited {COLOR: #464646; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; font-weight: bold;}
+A.fontgrey14_bold:hover {COLOR: #FF0000; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px;font-weight: bold;}
+A.fontgrey14_bold:active {COLOR: #464646; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px;font-weight: bold;}
+
+A.fontred14:link {COLOR: #FF0000; FONT-SIZE: 14px; line-height:24px;TEXT-DECORATION: none;}
+A.fontred14:visited {COLOR: #FF0000; FONT-SIZE: 14px; line-height:24px;TEXT-DECORATION: none;}
+A.fontred14:hover {COLOR: #FF0000; FONT-SIZE: 14px; line-height:24px;TEXT-DECORATION: none;}
+A.fontred14:active {COLOR: #FF0000; FONT-SIZE: 14px; line-height:24px;TEXT-DECORATION: none;}
+
+A.fontred14_bold:link {COLOR: #FF0000; FONT-SIZE: 14px; font-weight:bold; TEXT-DECORATION: none;line-height:24px;}
+A.fontred14_bold:visited {COLOR: #FF0000; FONT-SIZE: 14px; font-weight:bold; TEXT-DECORATION: none;line-height:24px;}
+A.fontred14_bold:hover {COLOR: #ffffff; FONT-SIZE: 14px; font-weight:bold; TEXT-DECORATION: none;line-height:24px;}
+A.fontred14_bold:active {COLOR: #FF0000; FONT-SIZE: 14px; font-weight:bold; TEXT-DECORATION: none;line-height:24px;}
+
+A.fontwhite14:link {COLOR: #ffffff; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; }
+A.fontwhite14:visited {COLOR: #ffffff; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; }
+A.fontwhite14:hover {COLOR: #FF0000; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px;}
+A.fontwhite14:active {COLOR: #ffffff; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; }
+
+A.fontwhite14_bold:link {COLOR: #ffffff; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; font-weight:bold;}
+A.fontwhite14_bold:visited {COLOR: #ffffff; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; font-weight:bold;}
+A.fontwhite14_bold:hover {COLOR: #FF0000; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; font-weight:bold;}
+A.fontwhite14_bold:active {COLOR: #ffffff; FONT-SIZE: 14px; TEXT-DECORATION: none;line-height:24px; font-weight:bold;}
+
+
+A.fontwhite16_bold:link {COLOR: #ffffff; FONT-SIZE: 16px; TEXT-DECORATION: none;line-height:24px; }
+A.fontwhite16_bold:visited {COLOR: #ffffff; FONT-SIZE: 16px; TEXT-DECORATION: none;line-height:24px; }
+A.fontwhite16_bold:hover {COLOR: #FF0000; FONT-SIZE: 16px; TEXT-DECORATION: none;line-height:24px; }
+A.fontwhite16_bold:active {COLOR: #ffffff; FONT-SIZE: 16px; TEXT-DECORATION: none;line-height:24px;}
+/*-----------------------线模块------------------------*/
+.s_all{ border:1px solid #999}	
+.s_all2{ border:1px solid #666}	
+.s_top{ border-top:1px solid #D9D9D9}			
+.s_left{ border-left:1px solid #D9D9D9;}	
+.s_right{ border-right:1px solid #D9D9D9;}	
+.s_bottom{ border-bottom:1px solid #D9D9D9}
+.s_ly{ border-left:1px solid #D9D9D9;border-right:1px solid #D9D9D9;}	
+.s_tb{ border-top:1px solid #D9D9D9;border-bottom:1px solid #D9D9D9;}
+.s_3m_top{ border-left:1px solid #D9D9D9;border-right:1px solid #D9D9D9;border-bottom:1px solid #D9D9D9;}
+.s_3m_bottom{ border-left:1px solid #D9D9D9;border-right:1px solid #D9D9D9;border-top:1px solid #D9D9D9;}
+
+.x_all {BORDER: #D9D9D9 1px dashed}
+.x_right {BORDER-RIGHT: #D9D9D9 1px dashed}
+.x_bottom {BORDER-BOTTOM: #D9D9D9 1px dashed}
+/*说明：虚线的命名规则为“xuxian_right”＝“名称_方向”*/
+
+
+/*-----------------------无链接区域------------------------*/
+.font_gary_10{ FONT-SIZE: 10px; COLOR:#464646; line-height:22px;}
+.font_gary_12{ FONT-SIZE: 12px; COLOR:#464646; line-height:22px;}
+.font_gary_12_x{ FONT-SIZE: 12px; COLOR:#737373; line-height:16px;}
+.font_black_14{ FONT-SIZE: 14px; COLOR:#000000; line-height:22px;}
+.font_gary_12_bold{ FONT-SIZE: 12px; COLOR:#464646;line-height:22px;font-weight: bold;}
+
+.font_red_12{ font-size:12px; color:FF0000;line-height:22px;}
+.font_red_12_bold{ FONT-SIZE: 12px; COLOR:#ff0000;line-height:22px;font-weight: bold;}
+
+.font_white_12{ FONT-SIZE:12px; COLOR:#ffffff; line-height:22px;}
+.font_white_12_bold{FONT-SIZE: 12px; COLOR:#ffffff; font-weight: bold;line-height:22px;}
+
+.font_gary_14{ FONT-SIZE: 14px; COLOR:#464646;line-height:24px;}
+.font_gary_14_x{ FONT-SIZE: 14px; COLOR:#737373;line-height:18px;}
+.font_gary_14_bold{FONT-SIZE: 14px; COLOR:#464646; font-weight: bold;line-height:24px;}
+
+.font_red_14{ font-size:12px; color:FF0000;line-height:24px;}
+.font_red_14_bold{ FONT-SIZE: 12px; COLOR:#ff0000;line-height:24px;font-weight: bold;}
+
+.font_white_14{ FONT-SIZE: 14px; COLOR:#ffffff;line-height:24px;}
+.font_white_14_bold{FONT-SIZE: 14px; COLOR:#ffffff; line-height:26px;font-weight: bold;}
+
+.font_white_16_bold{FONT-SIZE: 16px; COLOR:#ffffff; line-height:26px;}
+.font_blue_16_bold{FONT-SIZE: 16px; COLOR:#0067ac; line-height:26px;}
+
+.font_18{ FONT-SIZE: 18px; COLOR:#464646; line-height:28px;font-weight: bold;}
+/*非超级链接的命名规则：“font_white_12_bold_underline”＝“font字号_颜色名_加粗_下划线”。*/
+#foucsBox { margin: 0 auto; padding: 0; width: 290px; height: 206px; overflow: hidden; zoom: 1; position: relative; }
+    #foucsBox .imgCon { width: 290px; height: 206px; margin: 0; padding: 0; position: relative; list-style: none; }
+        #foucsBox .imgCon li { float: left; width: 290px; height: 206px; }
+		
+            #foucsBox .imgCon li img { border: 0; }
+            #foucsBox .imgCon li .imgTitle { width: 290px; position: absolute; bottom: 30px; text-align: center; z-index: 2; }
+                #foucsBox .imgCon li .imgTitle a { color: #fff; display: block; text-decoration: none; font-size: 14px; zoom: 1; }
+				
+    #foucsBox .showPage { width: 290px; height: 0px; position: absolute; bottom: 0;  z-index: 1; }
+    #foucsBox .foucs { width: 290px; height: 22px; position: absolute; bottom: 0px;text-align: center; z-index: 3; }
+        #foucsBox .foucs span { display: inline-block; width: 7px; height: 7px; margin: 0 5px; line-height: 0; font-size: 0; background: url(/img/pic/bg.png) -160px -90px no-repeat; cursor: pointer; overflow: hidden; }
+            #foucsBox .foucs span.f { background: url(/img/pic/bg.png) -170px -90px no-repeat; }
+ 
+    #foucsBox .foucsButton { width: 40px; height: 56px; padding: 7px; margin-top: -70px; position: relative; z-index: 4; }
+        #foucsBox .foucsButton span { display: inline; width: 23px; height: 45px; margin: 7px 5px 0; cursor: pointer; overflow: hidden;  }
+        #foucsBox .foucsButton img { display: none; cursor: pointer; border-width: 0px; vertical-align: middle; width: 300px; height: 56px; }
+
+
+    #foucsBox .lBtn { float: left; }
+        #foucsBox .lBtn span { float: left; background-position: 0 -90px; }
+    #foucsBox .rBtn { float: right; }
+        #foucsBox .rBtn span { float: right; background-position: -30px -90px; }
+    #foucsBox .btnHover { overflow: hidden; }
+        #foucsBox .btnHover img { display: inline; }

@@ -1,0 +1,49 @@
+.navigation {
+	 MARGIN: 0px auto; Z-INDEX: 999; WIDTH: 1200px; POSITION: relative; HEIGHT: 59px; }
+.main_nav {
+	PADDING-RIGHT: 0px; PADDING-LEFT:20px; BACKGROUND: url(../dh/fl_index_07.gif) no-repeat center bottom; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 1200px; PADDING-TOP: 0px; HEIGHT: 59px
+}
+.main_nav UL {
+	FLOAT: left; WIDTH: 1200px
+}
+.main_nav UL LI {
+	DISPLAY: inline; FONT-SIZE: 16px; FLOAT: left; POSITION: relative
+}
+.main_nav UL LI SPAN {
+	DISPLAY: block; FONT-SIZE: 10px; FLOAT: left; MARGIN: 25px 19px 0px 5px; LINE-HEIGHT: 59px; HEIGHT: 59px; TEXT-DECORATION: none; background-image:url(../../img/pic/dhd.png); width:12px; height:12px;}
+.main_nav UL LI A {
+	DISPLAY: block; FLOAT: left; TEXT-DECORATION: none
+}
+
+.nav1 {
+	PADDING-RIGHT: 16px; DISPLAY: block; PADDING-LEFT: 16px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #ffffff; LINE-HEIGHT: 59px; PADDING-TOP: 0px; HEIGHT: 59px
+}
+.nav1:hover {
+	PADDING-RIGHT: 16px; DISPLAY: block; PADDING-LEFT: 16px;  PADDING-BOTTOM: 0px; COLOR: #ce0609; LINE-HEIGHT: 59px; PADDING-TOP:0px; HEIGHT: 59px
+}
+
+
+.navoutDiv {
+	LEFT: 0px; OVERFLOW: hidden; WIDTH: 130px; POSITION: absolute; TOP: 59px; HEIGHT: 0px; 
+}
+
+.xia {
+	PADDING-left: 10px; BACKGROUND: #0f3692; WIDTH:130px; LINE-HEIGHT: 24px; HEIGHT: 24px; COLOR: #fff; FONT-SIZE: 12px;
+}
+.xia:hover {
+	PADDING-left: 10px; BACKGROUND: url(../dh/lanbai_07.jpg) repeat-x; WIDTH: 190px; LINE-HEIGHT: 22px; HEIGHT:22px; COLOR: #ce0609;
+}
+
+
+#nav LI UL {
+	BACKGROUND: #0063b0; LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 190px; POSITION: absolute; HEIGHT: auto; border-bottom:0px solid #fff; 
+}
+#nav LI UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px; WIDTH: 190px; PADDING-TOP: 0px; HEIGHT: 22px; border-top:0px solid #fff; 
+}
+#nav LI:hover UL {
+	LEFT: 0px; PADDING-BOTTOM: 0px
+}
+#nav LI UL LI B {
+	PADDING-LEFT: 0px; BACKGROUND: url() no-repeat left 
+}
