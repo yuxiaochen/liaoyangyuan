@@ -16,7 +16,9 @@
 <meta name="description" content="{$description}"/>
 <link rel="stylesheet" href="__PUBLICAPP__/css/css.css" type="text/css">
 <LINK href="__PUBLICAPP__/css/basic.css" type=text/css rel=stylesheet>
-<LINK href="__PUBLICAPP__/css/top.css" type=text/css rel=stylesheet>
+<LINK href="__PUBLICAPP__/css/common.css" type=text/css rel=stylesheet>
+    <LINK href="__PUBLICAPP__/css/index.css" type=text/css rel=stylesheet>
+    <LINK href="__PUBLICAPP__/css/top.css" type=text/css rel=stylesheet>
 <script type="text/javascript" src="__PUBLICAPP__/js/jquery-1.2.6.min.js"></script>
 <script type="text/javascript" src="__PUBLICAPP__/js/lazyload-min.js"></script>
 <script type="text/javascript" src="__PUBLICAPP__/js/jquery.cycle.all.js"></script>
