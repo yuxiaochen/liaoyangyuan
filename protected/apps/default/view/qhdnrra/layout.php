@@ -273,7 +273,7 @@
 </table>
 <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px; margin-bottom:40px;">
     <tr>
-        <td width="280" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:5px;">
+        <td width="280" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;">
                 <div class="yuevents fl clearfix">
                     <div class="events_title"><b>精彩回顾</b>
                         <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
@@ -285,8 +285,6 @@
                         </dl>
                     </div>
                 </div>
-
-
         </td>
         <td width="280" valign="top" bgcolor="#FFFFFF">
 
