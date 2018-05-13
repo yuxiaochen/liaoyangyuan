@@ -197,7 +197,8 @@
 </table>
 <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
     <tr>
-        <td width="300" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td width="300" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td height="35"><div align="left" style="margin-left:2px; margin-top:2px; background-image:url(__PUBLICAPP__/images/qhdnrra/top.jpg); background-repeat:no-repeat; padding-left:40px;"><span class="font_blue_16_bold">通知公告</span></div></td>
                     <td width="58"><div align="center"><a href="/php/news_list.php?lmid=1" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>
@@ -256,139 +257,198 @@
 <!--                <div class="rBtn foucsButton"> <span></span> <img /> </div>-->
 <!--                <div class="lBtn foucsButton"> <span></span> <img /></div>-->
 <!--            </div></td>-->
-        <td width="450" valign="top" bgcolor="#FFFFFF"><table width="393" border="0" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_06.jpg" style="margin-top:20px; margin-bottom:20px; margin-left:40px;">
-                <tr>
-                    <td width="63"><div align="center"><span class="font_white_16_bold"><a href="/php/news_list.php?lmid=8" target="_blank" class="fontwhite16_bold">新闻</a></span></div></td>
-<!--                    <td width="255" height="35" ><div align="left"><span class="font_white_16_bold">&nbsp;&nbsp;<a href="/php/ziyuan_list.php?lmid=14" target="_blank" class="fontwhite16_bold">资讯</a></span></div></td>-->
-                    <td width="75"><div align="center"><a href="/php/news_list.php?lmid=8" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>
-                </tr>
-            </table>
-            <table width="393" border="0" cellpadding="0" cellspacing="0" style="margin-left:40px;">
-                <tr>
-                    <td class="s_all" style="padding:5px"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="x_bottom">
-                            <tr>
-                                <td width="34%" height="120"><div align="left">
-                                        <table width="80%" border="0" align="center" cellspacing="0" style="margin-left:5px;margin-right:0px;">
-                                            <tr>
-                                                <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-right:5px;">
-                                                        <tr>
-                                                            <td width="107" align="center"><a href="php/news_show.php?id=126" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/jishu_126_1514169815.jpg" width="110" height="85" border="0" /></a></td>
-                                                        </tr>
+        <td width="450" valign="top" bgcolor="#FFFFFF">
+            <div class="events fl clearfix">
+                <div class="events_title"><b>活动资讯</b><span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a></div>
+                <!--#begineditable name="活动资讯标题列表" viewid="50730"--><div class="fl">
+                    <dl class="eventsDl eventsDlA">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
+                        <dd>2018.05.08</dd>
+                    </dl>
 
-                                                    </table></td>
-                                            </tr><tr>      </tr>
-                                        </table>
+                    <dl class="eventsDl eventsDlB">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43533.htm" title="【预告】2018届本科生“毕业嘉年华”活动" target="_blank">【预告】2018届本科生“毕业嘉年华”活动</a></dt>
+                        <dd>2018.05.08</dd>
+                    </dl>
 
-                                    </div></td>
-                                <td width="66%">
+                    <dl class="eventsDl eventsDlA">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43521.htm" title="【预告】北航高研论坛•非物质文化遗产系列讲座 | 覃代伦：锦说中华——中国民族织锦艺术审美史纲" target="_blank">【预告】北航高研论坛•非物质文化遗产系列讲座 | 覃代伦：锦说中华——中国民族织锦艺术审美史纲</a></dt>
+                        <dd>2018.05.08</dd>
+                    </dl>
 
-
-                                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
-                                        <tr >
-                                            <td><a href="php/news_show.php?id=146" target="_blank" class="fontgrey14">
-                                                    澳大利亚魏基成夫妇“天籁列车”驶进              </a></td>
-                                        </tr>
-                                        <tr >
-                                            <td><a href="php/news_show.php?id=126" target="_blank" class="fontgrey14">
-                                                    首届外骨骼机器人技术研讨会在国康秦              </a></td>
-                                        </tr>
-                                        <tr >
-                                            <td><a href="php/news_show.php?id=122" target="_blank" class="fontgrey14">
-                                                    德州三和电器有限公司领导莅临  国家              </a></td>
-                                        </tr>
-                                        <tr >
-                                            <td><a href="php/news_show.php?id=121" target="_blank" class="fontgrey14">
-                                                    国家康复辅具研究中心秦皇岛研究院迎              </a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="x_bottom">
-                            <tr>
-                                <td width="66%"><div align="left" style="margin-left:5px;">
-
-
-                                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
-                                            <tr >
-                                                <td><a href="php/news_show.php?id=125" target="_blank" class="fontgrey14">
-                                                        国家康复辅具研究中心和中国康复辅助              </a></td>
-                                            </tr>
-                                            <tr >
-                                                <td><a href="php/news_show.php?id=124" target="_blank" class="fontgrey14">
-                                                        中国残疾人辅助器具中心领导莅临  国              </a></td>
-                                            </tr>
-                                            <tr >
-                                                <td><a href="php/news_show.php?id=123" target="_blank" class="fontgrey14">
-                                                        东北大学秦皇岛分校生物医学工程专业              </a></td>
-                                            </tr>
-                                            <tr >
-                                                <td><a href="php/news_show.php?id=122" target="_blank" class="fontgrey14">
-                                                        德州三和电器有限公司领导莅临  国家              </a></td>
-                                            </tr>
-                                        </table>
-                                    </div></td>
-                                <td width="34%" height="120">
-
-
-                                    <table width="80%" border="0" align="center" cellspacing="0" style="margin-left:5px;margin-right:0px;">
-                                        <tr>
-                                            <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-right:5px;">
-                                                    <tr>
-                                                        <td width="107" align="center"><a href="php/news_show.php?id=122" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/jishu_122_1514169702.jpg" width="120" height="90" border="0" /></a></td>
-                                                    </tr>
-
-                                                </table></td>
-                                        </tr><tr>      </tr>
-                                    </table>
-
-                                </td>
-                            </tr>
-                        </table>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td width="34%" height="118"><div align="left">
+                    <dl class="eventsDl eventsDlB">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43471.htm" title="研究生人文与科学素养系列讲座预告（5.7-5.13）" target="_blank">研究生人文与科学素养系列讲座预告（5.7-5.13）</a></dt>
+                        <dd>2018.05.06</dd>
+                    </dl>
 
 
 
-                                        <table width="80%" border="0" align="center" cellspacing="0" style="margin-left:5px;margin-right:0px;">
-                                            <tr>
-                                                <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-right:5px;">
-                                                        <tr>
-                                                            <td width="107" align="center"><a href="php/news_show.php?id=142" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/jishu_142_1520128584.jpg" width="110" height="85" border="0" /></a></td>
-                                                        </tr>
-
-                                                    </table></td>
-                                            </tr><tr>      </tr>
-                                        </table>
-
-                                    </div></td>
-                                <td width="66%">
 
 
-                                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
-                                        <tr >
-                                            <td><a href="php/news_show.php?id=150" target="_blank" class="fontgrey14">
-                                                    秦皇岛京河科学技术研究院业务部主任              </a></td>
-                                        </tr>
-                                        <tr >
-                                            <td><a href="php/news_show.php?id=148" target="_blank" class="fontgrey14">
-                                                    河北省政策科学研究会常务副会长马建              </a></td>
-                                        </tr>
-                                        <tr >
-                                            <td><a href="php/news_show.php?id=147" target="_blank" class="fontgrey14">
-                                                    促进秦皇岛市康复辅具产业健康发展              </a></td>
-                                        </tr>
-                                        <tr >
-                                            <td><a href="php/news_show.php?id=146" target="_blank" class="fontgrey14">
-                                                    澳大利亚魏基成夫妇“天籁列车”驶进              </a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table></td>
-                </tr>
-            </table></td>
+                </div>
+
+                <div class="fr">
+
+
+
+
+                    <dl class="eventsDl eventsDlB">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43377.htm" title="【北航音乐厅预告】波兰公平竞争组合肢体舞蹈默剧《严肃喜剧》" target="_blank">【北航音乐厅预告】波兰公平竞争组合肢体舞蹈默剧《严肃喜剧》</a></dt>
+                        <dd>2018.05.02</dd>
+                    </dl>
+
+                    <dl class="eventsDl eventsDlA">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43366.htm" title="学术讲座预告：【北航自动化大讲堂 第2期】 澳大利亚皇家墨尔本理工大学余星火教授特邀报告" target="_blank">学术讲座预告：【北航自动化大讲堂 第2期】 澳大利亚皇家墨尔本理工大学余星火教授特邀报告</a></dt>
+                        <dd>2018.04.28</dd>
+                    </dl>
+
+                    <dl class="eventsDl eventsDlB">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43307.htm" title="【北航思源讲堂】首讲预告：春天不一样的美食养生——吃“春儿”" target="_blank">【北航思源讲堂】首讲预告：春天不一样的美食养生——吃“春儿”</a></dt>
+                        <dd>2018.04.26</dd>
+                    </dl>
+
+                    <dl class="eventsDl eventsDlA">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43293.htm" title="空间与环境学院第二届创新论坛第三讲预告：从北航到南门二" target="_blank">空间与环境学院第二届创新论坛第三讲预告：从北航到南门二</a></dt>
+                        <dd>2018.04.25</dd>
+                    </dl>
+
+                </div><script>_showDynClickBatch(['dynclicks_u9_3016','dynclicks_u9_3014','dynclicks_u9_3012','dynclicks_u9_3006','dynclicks_u9_2982','dynclicks_u9_2980','dynclicks_u9_2972','dynclicks_u9_2971'],[3016,3014,3012,3006,2982,2980,2972,2971],"wbnews", 1405884961)</script>
+                <!--#endeditable-->
+            </div>
+
+            <!--            <table width="393" border="0" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_06.jpg" style="margin-top:20px; margin-bottom:20px; margin-left:40px;">-->
+<!--                <tr>-->
+<!--                    <td width="63"><div align="center"><span class="font_white_16_bold"><a href="/php/news_list.php?lmid=8" target="_blank" class="fontwhite16_bold">新闻</a></span></div></td>-->
+<!--<!--                    <td width="255" height="35" ><div align="left"><span class="font_white_16_bold">&nbsp;&nbsp;<a href="/php/ziyuan_list.php?lmid=14" target="_blank" class="fontwhite16_bold">资讯</a></span></div></td>-->-->
+<!--                    <td width="75"><div align="center"><a href="/php/news_list.php?lmid=8" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>-->
+<!--                </tr>-->
+<!--            </table>-->
+<!--            <table width="393" border="0" cellpadding="0" cellspacing="0" style="margin-left:40px;">-->
+<!--                <tr>-->
+<!--                    <td class="s_all" style="padding:5px"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="x_bottom">-->
+<!--                            <tr>-->
+<!--                                <td width="34%" height="120"><div align="left">-->
+<!--                                        <table width="80%" border="0" align="center" cellspacing="0" style="margin-left:5px;margin-right:0px;">-->
+<!--                                            <tr>-->
+<!--                                                <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-right:5px;">-->
+<!--                                                        <tr>-->
+<!--                                                            <td width="107" align="center"><a href="php/news_show.php?id=126" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/jishu_126_1514169815.jpg" width="110" height="85" border="0" /></a></td>-->
+<!--                                                        </tr>-->
+<!---->
+<!--                                                    </table></td>-->
+<!--                                            </tr><tr>      </tr>-->
+<!--                                        </table>-->
+<!---->
+<!--                                    </div></td>-->
+<!--                                <td width="66%">-->
+<!---->
+<!---->
+<!--                                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >-->
+<!--                                        <tr >-->
+<!--                                            <td><a href="php/news_show.php?id=146" target="_blank" class="fontgrey14">-->
+<!--                                                    澳大利亚魏基成夫妇“天籁列车”驶进              </a></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr >-->
+<!--                                            <td><a href="php/news_show.php?id=126" target="_blank" class="fontgrey14">-->
+<!--                                                    首届外骨骼机器人技术研讨会在国康秦              </a></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr >-->
+<!--                                            <td><a href="php/news_show.php?id=122" target="_blank" class="fontgrey14">-->
+<!--                                                    德州三和电器有限公司领导莅临  国家              </a></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr >-->
+<!--                                            <td><a href="php/news_show.php?id=121" target="_blank" class="fontgrey14">-->
+<!--                                                    国家康复辅具研究中心秦皇岛研究院迎              </a></td>-->
+<!--                                        </tr>-->
+<!--                                    </table>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                        </table>-->
+<!--                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="x_bottom">-->
+<!--                            <tr>-->
+<!--                                <td width="66%"><div align="left" style="margin-left:5px;">-->
+<!---->
+<!---->
+<!--                                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >-->
+<!--                                            <tr >-->
+<!--                                                <td><a href="php/news_show.php?id=125" target="_blank" class="fontgrey14">-->
+<!--                                                        国家康复辅具研究中心和中国康复辅助              </a></td>-->
+<!--                                            </tr>-->
+<!--                                            <tr >-->
+<!--                                                <td><a href="php/news_show.php?id=124" target="_blank" class="fontgrey14">-->
+<!--                                                        中国残疾人辅助器具中心领导莅临  国              </a></td>-->
+<!--                                            </tr>-->
+<!--                                            <tr >-->
+<!--                                                <td><a href="php/news_show.php?id=123" target="_blank" class="fontgrey14">-->
+<!--                                                        东北大学秦皇岛分校生物医学工程专业              </a></td>-->
+<!--                                            </tr>-->
+<!--                                            <tr >-->
+<!--                                                <td><a href="php/news_show.php?id=122" target="_blank" class="fontgrey14">-->
+<!--                                                        德州三和电器有限公司领导莅临  国家              </a></td>-->
+<!--                                            </tr>-->
+<!--                                        </table>-->
+<!--                                    </div></td>-->
+<!--                                <td width="34%" height="120">-->
+<!---->
+<!---->
+<!--                                    <table width="80%" border="0" align="center" cellspacing="0" style="margin-left:5px;margin-right:0px;">-->
+<!--                                        <tr>-->
+<!--                                            <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-right:5px;">-->
+<!--                                                    <tr>-->
+<!--                                                        <td width="107" align="center"><a href="php/news_show.php?id=122" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/jishu_122_1514169702.jpg" width="120" height="90" border="0" /></a></td>-->
+<!--                                                    </tr>-->
+<!---->
+<!--                                                </table></td>-->
+<!--                                        </tr><tr>      </tr>-->
+<!--                                    </table>-->
+<!---->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                        </table>-->
+<!--                        <table width="100%" border="0" cellspacing="0" cellpadding="0">-->
+<!--                            <tr>-->
+<!--                                <td width="34%" height="118"><div align="left">-->
+<!---->
+<!---->
+<!---->
+<!--                                        <table width="80%" border="0" align="center" cellspacing="0" style="margin-left:5px;margin-right:0px;">-->
+<!--                                            <tr>-->
+<!--                                                <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin-right:5px;">-->
+<!--                                                        <tr>-->
+<!--                                                            <td width="107" align="center"><a href="php/news_show.php?id=142" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/jishu_142_1520128584.jpg" width="110" height="85" border="0" /></a></td>-->
+<!--                                                        </tr>-->
+<!---->
+<!--                                                    </table></td>-->
+<!--                                            </tr><tr>      </tr>-->
+<!--                                        </table>-->
+<!---->
+<!--                                    </div></td>-->
+<!--                                <td width="66%">-->
+<!---->
+<!---->
+<!--                                    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >-->
+<!--                                        <tr >-->
+<!--                                            <td><a href="php/news_show.php?id=150" target="_blank" class="fontgrey14">-->
+<!--                                                    秦皇岛京河科学技术研究院业务部主任              </a></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr >-->
+<!--                                            <td><a href="php/news_show.php?id=148" target="_blank" class="fontgrey14">-->
+<!--                                                    河北省政策科学研究会常务副会长马建              </a></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr >-->
+<!--                                            <td><a href="php/news_show.php?id=147" target="_blank" class="fontgrey14">-->
+<!--                                                    促进秦皇岛市康复辅具产业健康发展              </a></td>-->
+<!--                                        </tr>-->
+<!--                                        <tr >-->
+<!--                                            <td><a href="php/news_show.php?id=146" target="_blank" class="fontgrey14">-->
+<!--                                                    澳大利亚魏基成夫妇“天籁列车”驶进              </a></td>-->
+<!--                                        </tr>-->
+<!--                                    </table>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                        </table></td>-->
+<!--                </tr>-->
+<!--            </table></td>-->
 <!--        <td width="450" valign="top" bgcolor="#FFFFFF"><table width="393" border="0" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_03.jpg" style="margin-top:20px; margin-bottom:20px; margin-left:30px;">-->
 <!--                <tr>-->
 <!--                    <td width="63"><div align="center"><span class="font_white_16_bold"><a href="#" target="_blank" class="fontwhite16_bold">科研</a></span></div></td>-->

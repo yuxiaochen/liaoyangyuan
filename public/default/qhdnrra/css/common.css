@@ -1,0 +1,43 @@
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,select,textarea,span,
+img,a,em,strong,*{ margin:0; padding:0;}
+article,section,aside,nav,header,footer,address,header,hgroup,blockquote,figure,figcaption{
+    display:block;}
+body{ font-family:"寰蒋闆呴粦",arial;  font-size:12px;color:#000000;overflow-x: hidden;}
+ul,ol,li{ list-style:none;}
+input,select,textarea{ vertical-align:middle;}
+p,h1,h2,h3,h4,h5,h6,span,textarea, input { font-family: "寰蒋闆呴粦",arial; }
+img{ border:none; vertical-align:middle;}
+a{ text-decoration:none; color:#333333;}
+.clearfix:after {visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+.clearfix {zoom:1;}
+.clear{clear: both;}
+body,html{ width:100%;height: 100%;}
+.fl{float: left;}
+.fr{float: right;}
+.bordernone{border: 0!important;}
+
+.header{position: fixed;top: 0;z-index: 999;width: 100%;background: url(../img/headerbg.png) repeat-x;height: 85px;}
+.top{width: 1200px;margin: 0 auto;background: url(../img/topbg.png) no-repeat right;height: 85px;position: relative;}
+.top .logo{float: left;margin-top: 14px;}
+.enVer{float: right;color: #fff;margin-top: 36px;margin-right: 26px;}
+.searchbtn{position: absolute;right: 25px;top: 0;}
+.souso_cont{width:260px;height: 27px;position: relative;display:none;}
+.sousu_input{background: url(../img/souso_input_bg.png) no-repeat center center;width: 240px; padding-right:20px; height: 27px;text-indent: 10px;outline: none;border: 0;}
+.souso_btn{background: url(../img/fdj.png) no-repeat center center;width: 16px;height: 17px;position: absolute;top:5px;right:6px;border: 0;outline: none;cursor: pointer;}
+.top .nav{float: right;margin-right: 30px;margin-top: 36px;}
+.top .nav>li{float: left;padding: 0 15px;font-size: 16px;position: relative; color: #fff; cursor:pointer;}
+.top .nav>li>a{color: #fff;}
+.top .nav>li>span{position: absolute;right: 0;top: 0;}
+.top .nav>li>a:hover{text-decoration: underline;}
+.nav_hidiv{width: 94px;background: #00529f;position: absolute;left: 0;display: none;}
+.nav_hidiv>ul>li{height: 33px;line-height: 33px;font-size: 14px;text-align: center;}
+.nav_hidiv>ul>li:hover{background: #003569;}
+.nav_hidiv>ul>li>a{color: #fff;display: block;}
+.section{width: 100%;}
+.main{width: 1200px;margin: 0 auto;position: relative;}
+.top65{margin-top: 85px;width: 100%;height: 30px;border-top: 1px solid #d5d5d5;background: #eee;margin-bottom: 1px;}
+.top65In{width: 1200px;margin: 0 auto;}
+.search65{width: 50px;height: 30px;}
+.shxq_btn{background: url(../img/icon_house.png) no-repeat left center;font-size: 14px;color: #444444;line-height: 30px;padding-left:26px;margin-left: 10px;}
+.Footer{width: 100%;height: 50px;background: #e5e5e5;margin-top: 20px;}
+.footer{width: 1190px;margin: 0 auto;height: 100%;line-height: 50px;color: #004686;text-indent: 10px;}
