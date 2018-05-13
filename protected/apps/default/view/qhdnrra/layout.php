@@ -230,7 +230,7 @@
 <!--                    <td width="58"><div align="center"><a href="/php/zhuanjia_list.php?lmid=88" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>-->
 <!--                </tr>-->
 <!--            </table>-->
-            <div id="foucsBox">
+<!--            <div id="foucsBox">-->
 <!--                <ul class="imgCon">-->
 <!--                    <!--展示图片开始-->-->
 <!--                    <li><a href="php/zhuanjia_show.php?id=256" target="_blank">-->
@@ -252,14 +252,14 @@
 <!--                    </li>-->
 <!--                    <!--展示图片结束-->-->
 <!--                </ul>-->
-                <div class="foucs"></div>
-                <div class="rBtn foucsButton"> <span></span> <img /> </div>
-                <div class="lBtn foucsButton"> <span></span> <img /></div>
-            </div></td>
+<!--                <div class="foucs"></div>-->
+<!--                <div class="rBtn foucsButton"> <span></span> <img /> </div>-->
+<!--                <div class="lBtn foucsButton"> <span></span> <img /></div>-->
+<!--            </div></td>-->
         <td width="450" valign="top" bgcolor="#FFFFFF"><table width="393" border="0" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_06.jpg" style="margin-top:20px; margin-bottom:20px; margin-left:40px;">
                 <tr>
                     <td width="63"><div align="center"><span class="font_white_16_bold"><a href="/php/news_list.php?lmid=8" target="_blank" class="fontwhite16_bold">新闻</a></span></div></td>
-                    <td width="255" height="35" ><div align="left"><span class="font_white_16_bold">&nbsp;&nbsp;<a href="/php/ziyuan_list.php?lmid=14" target="_blank" class="fontwhite16_bold">资讯</a></span></div></td>
+<!--                    <td width="255" height="35" ><div align="left"><span class="font_white_16_bold">&nbsp;&nbsp;<a href="/php/ziyuan_list.php?lmid=14" target="_blank" class="fontwhite16_bold">资讯</a></span></div></td>-->
                     <td width="75"><div align="center"><a href="/php/news_list.php?lmid=8" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>
                 </tr>
             </table>
@@ -389,18 +389,18 @@
                         </table></td>
                 </tr>
             </table></td>
-        <td width="450" valign="top" bgcolor="#FFFFFF"><table width="393" border="0" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_03.jpg" style="margin-top:20px; margin-bottom:20px; margin-left:30px;">
-                <tr>
-                    <td width="63"><div align="center"><span class="font_white_16_bold"><a href="#" target="_blank" class="fontwhite16_bold">科研</a></span></div></td>
-                    <td width="255" height="35" ><div align="left"><span class="font_white_16_bold">&nbsp;&nbsp;<a href="/php/zhijian.php?id=28" target="_blank" class="fontwhite16_bold">质检</a></span></div></td>
-                    <td width="75"><div align="center"><a href="/php/zhijian.php?id=28" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>
-                </tr>
-            </table>
-            <table width="393" border="0" cellpadding="0" cellspacing="0" style="margin-left:30px;">
-                <tr>
-                    <td class="s_all" style="padding:0px"><img src="__PUBLICAPP__/images/qhdnrra/keyan.jpg" width="374" height="370" /></td>
-                </tr>
-            </table></td>
+<!--        <td width="450" valign="top" bgcolor="#FFFFFF"><table width="393" border="0" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_03.jpg" style="margin-top:20px; margin-bottom:20px; margin-left:30px;">-->
+<!--                <tr>-->
+<!--                    <td width="63"><div align="center"><span class="font_white_16_bold"><a href="#" target="_blank" class="fontwhite16_bold">科研</a></span></div></td>-->
+<!--                    <td width="255" height="35" ><div align="left"><span class="font_white_16_bold">&nbsp;&nbsp;<a href="/php/zhijian.php?id=28" target="_blank" class="fontwhite16_bold">质检</a></span></div></td>-->
+<!--                    <td width="75"><div align="center"><a href="/php/zhijian.php?id=28" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>-->
+<!--                </tr>-->
+<!--            </table>-->
+<!--            <table width="393" border="0" cellpadding="0" cellspacing="0" style="margin-left:30px;">-->
+<!--                <tr>-->
+<!--                    <td class="s_all" style="padding:0px"><img src="__PUBLICAPP__/images/qhdnrra/keyan.jpg" width="374" height="370" /></td>-->
+<!--                </tr>-->
+<!--            </table></td>-->
     </tr>
 </table>
 <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px; margin-bottom:40px;">
