@@ -271,98 +271,41 @@
 <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px; margin-bottom:40px;">
     <tr>
         <td width="300" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:5px;">
-                <tr>
-                    <td height="35" bgcolor="054ea2"><div align="center"><span class="font_white_16_bold"><a href="/php/shiji_list.php?lmid=87" target="_blank" class="fontwhite16_bold">大事记</a></span></div></td>
-                </tr>
-            </table>
-
-
-
-            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
-                <tr >
-                    <td bgcolor="#D2EDFF" style="border-bottom:1px solid #fff; padding:5px;"><a href="php/shiji_show.php?id=223" target="_blank" class="fontgrey14">
-                            2016年1月27日，秦皇岛市政府与国家康复辅具研究中心签署战略合作协议，民政部副部长邹铭出席。              </a></td>
-                </tr>
-                <tr >
-                    <td bgcolor="#D2EDFF" style="border-bottom:1px solid #fff; padding:5px;"><a href="php/shiji_show.php?id=224" target="_blank" class="fontgrey14">
-                            2016年7月7日，国家康复辅具研究中心秦皇岛研究院和国家康复辅具质检中心秦皇岛分中心在秦皇岛经济技术开发区正式成立。              </a></td>
-                </tr>
-                <tr >
-                    <td bgcolor="#D2EDFF" style="border-bottom:1px solid #fff; padding:5px;"><a href="php/shiji_show.php?id=225" target="_blank" class="fontgrey14">
-                            2016年7月8日，中国康复辅助器具协会康复工程专业委员会成立大会暨中国康复医学与工程学术研讨会在秦皇岛成功召开。              </a></td>
-                </tr>
-                <tr >
-                    <td bgcolor="#D2EDFF" style="border-bottom:1px solid #fff; padding:5px;"><a href="php/shiji_show.php?id=226" target="_blank" class="fontgrey14">
-                            2017年2月10日，国家康复辅具研究中心与秦皇岛市政府召开2017年院地共建工作推进会              </a></td>
-                </tr>
-            </table>
-
+                <div class="yuevents fl clearfix">
+                    <div class="events_title"><b>精彩回顾</b>
+                        <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
+                        <dl class="eventsDl eventsDlA">
+                            <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
+                            <dd>2018.05.08</dd>
+                        </dl>
+                    </div>
+                </div>
 
 
         </td>
-        <td width="450" valign="top" bgcolor="#FFFFFF"><table width="393" border="0" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra_in--11_10.jpg" style="margin-top:20px; margin-bottom:20px; margin-left:40px;">
-                <tr>
-                    <td width="63"><div align="center"><span class="font_white_16_bold"><a href="/php/cp_list.php?lmid=8" target="_blank" class="fontwhite16_bold">产品</a></span></div></td>
-                    <td width="255" height="35" ><div align="left"><span class="font_white_16_bold">&nbsp;&nbsp;<a href="/php/yyk.php?id=33" target="_blank" class="fontwhite16_bold">服务</a></span></div></td>
-                    <td width="75"><div align="center"><a href="/php/cp_list.php?lmid=8" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>
-                </tr>
-            </table>
-            <table width="393" border="0" cellpadding="0" cellspacing="0" style="margin-left:40px;">
-                <tr>
-                    <td class="s_all" style="padding:5px">
+        <td width="450" valign="top" bgcolor="#FFFFFF">
 
-
-
-                        <table width="100%" border="0" cellspacing="0" style="margin-top:5px;margin-bottom:5px;">
-                            <tr>
-                                <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin:10px;">
-                                        <tr>
-                                            <td width="107" align="center"><a href="php/cp_show.php?id=193" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/news_193_1514355413.png" width="160" height="160" border="0" style="border:#f0f0f2 solid 0px; padding:0px;"/></a></td>
-                                        </tr>
-
-                                    </table></td>
-                                <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin:10px;">
-                                        <tr>
-                                            <td width="107" align="center"><a href="php/cp_show.php?id=192" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/news_192_1514355308.png" width="160" height="160" border="0" style="border:#f0f0f2 solid 0px; padding:0px;"/></a></td>
-                                        </tr>
-
-                                    </table></td>
-                            </tr><tr>	    <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin:10px;">
-                                        <tr>
-                                            <td width="107" align="center"><a href="php/cp_show.php?id=191" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/news_191_1514355093.png" width="160" height="160" border="0" style="border:#f0f0f2 solid 0px; padding:0px;"/></a></td>
-                                        </tr>
-
-                                    </table></td>
-                                <td><table border="0" align="center" cellpadding="0" cellspacing="0" style="margin:10px;">
-                                        <tr>
-                                            <td width="107" align="center"><a href="php/cp_show.php?id=190" target="_blank"><img src="__PUBLICAPP__/images/qhdnrra/news_190_1514354904.png" width="160" height="160" border="0" style="border:#f0f0f2 solid 0px; padding:0px;"/></a></td>
-                                        </tr>
-
-                                    </table></td>
-                            </tr><tr>      </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table></td>
-        <td width="450" valign="top" bgcolor="#FFFFFF"><table width="393" border="0" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_12.jpg" style="margin-top:20px; margin-bottom:20px; margin-left:30px;">
-                <tr>
-                    <td width="63"><div align="center"><span class="font_white_16_bold"><a href="/php/keyan.php?id=25" target="_blank" class="fontwhite16_bold">医疗</a></span></div></td>
-                    <td width="255" height="35" ><div align="left"><span class="font_white_16_bold">&nbsp;&nbsp;<a href="/php/yyk.php?id=32" target="_blank" class="fontwhite16_bold">养老</a></span></div></td>
-                    <td width="75"><div align="center"><a href="/php/yyk.php?id=32" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>
-                </tr>
-            </table>
-            <table width="393" border="0" cellpadding="0" cellspacing="0" style="margin-left:30px;">
-                <tr>
-                    <td class="s_all" style="padding:0px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td><img src="__PUBLICAPP__/images/qhdnrra/yyk.jpg" width="390" height="253" /></td>
-                            </tr>
-                            <tr>
-                                <td><div class="fontgery12 STYLE1" style="padding:5px; padding-bottom:10px; padding-top:10px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国康医院秦皇岛分院位于秦皇岛市民政事业服务中心4号楼，建设八层医院综合楼1栋，建筑面积7390.70平方米。秦皇岛康养（养老）中心位于秦皇岛市民政事业服务中心1号楼和2号楼。充分发挥国家康复辅具研究中心技术优势，打造“医养康研一体化”并兼顾兜底保障功能的示范性康养机构。</div></td>
-                            </tr>
-                        </table></td>
-                </tr>
-            </table></td>
+                <div class="yuevents fl clearfix">
+                    <div class="events_title"><b>行业信息</b>
+                        <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
+                        <dl class="eventsDl eventsDlA">
+                            <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
+                            <dd>2018.05.08</dd>
+                        </dl>
+                    </div>
+                </div>
+        </td>
+        <td width="450" valign="top" bgcolor="#FFFFFF">
+            <div class="yuevents fl clearfix">
+                <div class="events_title"><b>专业知识</b>
+                    <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
+                    <dl class="eventsDl eventsDlA">
+                        <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
+                        <dd>2018.05.08</dd>
+                    </dl>
+                </div>
+            </div>
+          </td>
     </tr>
 </table>
 <div style="background-color:#f4f9fc; height:60px;min-width:1200px;">
