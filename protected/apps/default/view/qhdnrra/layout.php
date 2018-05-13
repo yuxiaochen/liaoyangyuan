@@ -118,61 +118,63 @@
         <div class=main_nav>
             <ul id=nav>
                 <li><a class=nav1 id=a0 href="/">网站首页</a><span></span></li>
-                <li><a class=nav1 id=a1 href="/php/about.php?id=1">北京中心</a><span></span>
+                <li><a class=nav1 id=a1 href="/php/about.php?id=1">分会概况</a><span></span>
                     <div class=navoutDiv>
                         <ul>
-                            <li><a class=xia href="/php/about.php?id=1" _fcksavedurl="#">&nbsp;中心简介</a> </li>
-                            <li><a class=xia href="/php/about.php?id=2" _fcksavedurl="#">&nbsp;现任领导</a> </li>
+                            <li><a class=xia href="/php/about.php?id=1" _fcksavedurl="#">&nbsp;分会简介</a> </li>
+                            <li><a class=xia href="/php/about.php?id=2" _fcksavedurl="#">&nbsp;分会章程</a> </li>
+                            <li><a class=xia href="/php/about.php?id=3" _fcksavedurl="#">&nbsp;工作委员会</a> </li>
+                            <li><a class=xia href="/php/about.php?id=4" _fcksavedurl="#">&nbsp;学会工作</a> </li>
                         </ul>
                     </div>
                 </li>
 
-                <li><a class=nav1 id=a2 href="/php/keyan.php?id=25">秦皇岛研究院</a><span></span>
+                <li><a class=nav1 id=a2 href="/php/keyan.php?id=25">成果展示</a><span></span>
                     <div class=navoutDiv>
                         <ul>
-                            <li><a class=xia href="/php/keyan.php?id=25" _fcksavedurl="#">&nbsp;研究院简介</a> </li>
-                            <li><a class=xia href="/php/keyan.php?id=26" _fcksavedurl="#">&nbsp;现任领导介绍</a> </li>
-                            <li><a class=xia href="/php/keyan.php?id=27" _fcksavedurl="#">&nbsp;组织框架</a> </li>
+                            <li><a class=xia href="/php/keyan.php?id=25" _fcksavedurl="#">&nbsp;科研项目</a> </li>
+                            <li><a class=xia href="/php/keyan.php?id=26" _fcksavedurl="#">&nbsp;论文专区</a> </li>
+                            <li><a class=xia href="/php/keyan.php?id=27" _fcksavedurl="#">&nbsp;专利专区</a> </li>
                         </ul>
                     </div></li>
 
-                <li><a class=nav1 id=a3 href="/php/zhijian.php?id=28">质检分中心</a><span></span>
+                <li><a class=nav1 id=a3 href="/php/zhijian.php?id=28">会员社区</a><span></span>
                     <div class=navoutDiv>
                         <ul>
-                            <li><a class=xia href="/php/zhijian.php?id=28" _fcksavedurl="">&nbsp;质检分中心介绍</a> </li>
-                            <li><a class=xia href="/php/zhijian.php?id=29" _fcksavedurl="#">&nbsp;资质证明</a> </li>
-                            <li><a class=xia href="/php/zhijian.php?id=30" _fcksavedurl="#">&nbsp;主要职责</a> </li>
-                            <li><a class=xia href="/php/zhijian.php?id=31" _fcksavedurl="#">&nbsp;承检范围</a> </li>
+                            <li><a class=xia href="/php/zhijian.php?id=28" _fcksavedurl="">&nbsp;关于入会</a> </li>
+                            <li><a class=xia href="/php/zhijian.php?id=29" _fcksavedurl="#">&nbsp;单位会员名录</a> </li>
+                            <li><a class=xia href="/php/zhijian.php?id=30" _fcksavedurl="#">&nbsp;工作报告</a> </li>
+<!--                            <li><a class=xia href="/php/zhijian.php?id=31" _fcksavedurl="#">&nbsp;承检范围</a> </li>-->
                         </ul>
                     </div>  </li>
 
-                <li><a class=nav1 id=a4 href="/php/yyk.php?id=32">秦皇岛医养康中心</a><span></span>
-                    <div class=navoutDiv>
-                        <ul>
-                            <li><a class=xia href="/php/yyk.php?id=32" _fcksavedurl="">&nbsp;机构介绍</a> </li>
-                            <li><a class=xia href="/php/yyk.php?id=33" _fcksavedurl="#">&nbsp;养老服务</a> </li>
-                            <li><a class=xia href="/php/yyk.php?id=34" _fcksavedurl="#">&nbsp;互联网+康复辅具</a> </li>
-                        </ul>
-                    </div></li>
+<!--                <li><a class=nav1 id=a4 href="/php/yyk.php?id=32">秦皇岛医养康中心</a><span></span>-->
+<!--                    <div class=navoutDiv>-->
+<!--                        <ul>-->
+<!--                            <li><a class=xia href="/php/yyk.php?id=32" _fcksavedurl="">&nbsp;机构介绍</a> </li>-->
+<!--                            <li><a class=xia href="/php/yyk.php?id=33" _fcksavedurl="#">&nbsp;养老服务</a> </li>-->
+<!--                            <li><a class=xia href="/php/yyk.php?id=34" _fcksavedurl="#">&nbsp;互联网+康复辅具</a> </li>-->
+<!--                        </ul>-->
+<!--                    </div></li>-->
+<!---->
+<!--                <li><a class=nav1 id=a6 href="/php/ziyuan_list.php?lmid=14">资源资讯</a><span></span>-->
+<!--                    <div class=navoutDiv>-->
+<!--                        <ul>-->
+<!--                            <li><a class=xia href="/php/ziyuan_list.php?lmid=14" _fcksavedurl="">&nbsp;政策法规</a> </li>-->
+<!--                            <li><a class=xia href="/php/ziyuan_list.php?lmid=85" _fcksavedurl="#">&nbsp;学术动态</a> </li>-->
+<!--                            <li><a class=xia href="/php/ziyuan_list.php?lmid=86" _fcksavedurl="#">&nbsp;辅具科普知识</a> </li>-->
+<!--                        </ul>-->
+<!--                    </div></li>-->
+<!---->
+<!--                <li><a class=nav1 id=a7 href="/php/cp_list.php?lmid=8">产品服务</a><span></span>-->
+<!--                    <div class=navoutDiv>-->
+<!--                        <ul>-->
+<!--                            <li><a class=xia href="/php/cp_list.php?lmid=8" _fcksavedurl="">&nbsp;辅具产品介绍</a> </li>-->
+<!--                            <li><a class=xia href="/php/cp_list.php?lmid=7" _fcksavedurl="#">&nbsp;辅具租赁产品介绍</a> </li>-->
+<!--                        </ul>-->
+<!--                    </div></li>-->
 
-                <li><a class=nav1 id=a6 href="/php/ziyuan_list.php?lmid=14">资源资讯</a><span></span>
-                    <div class=navoutDiv>
-                        <ul>
-                            <li><a class=xia href="/php/ziyuan_list.php?lmid=14" _fcksavedurl="">&nbsp;政策法规</a> </li>
-                            <li><a class=xia href="/php/ziyuan_list.php?lmid=85" _fcksavedurl="#">&nbsp;学术动态</a> </li>
-                            <li><a class=xia href="/php/ziyuan_list.php?lmid=86" _fcksavedurl="#">&nbsp;辅具科普知识</a> </li>
-                        </ul>
-                    </div></li>
-
-                <li><a class=nav1 id=a7 href="/php/cp_list.php?lmid=8">产品服务</a><span></span>
-                    <div class=navoutDiv>
-                        <ul>
-                            <li><a class=xia href="/php/cp_list.php?lmid=8" _fcksavedurl="">&nbsp;辅具产品介绍</a> </li>
-                            <li><a class=xia href="/php/cp_list.php?lmid=7" _fcksavedurl="#">&nbsp;辅具租赁产品介绍</a> </li>
-                        </ul>
-                    </div></li>
-
-                <li><a class=nav1 id=a8 href="/php/hezuo.php?id=47">对外合作</a><span></span>
+                <li><a class=nav1 id=a8 href="/php/hezuo.php?id=47">联系我们</a><span></span>
                 </li>
 
             </ul>
@@ -222,34 +224,34 @@
                     </td>
                 </tr>
             </table>
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:20px; margin-top:15px;">
-                <tr>
-                    <td height="35"><div align="left" style="margin-left:2px; margin-top:2px; background-image:url(__PUBLICAPP__/images/qhdnrra/top.jpg); background-repeat:no-repeat; padding-left:40px;"><span class="font_blue_16_bold">专家风采</span></div></td>
-                    <td width="58"><div align="center"><a href="/php/zhuanjia_list.php?lmid=88" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>
-                </tr>
-            </table>
+<!--            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:20px; margin-top:15px;">-->
+<!--                <tr>-->
+<!--                    <td height="35"><div align="left" style="margin-left:2px; margin-top:2px; background-image:url(__PUBLICAPP__/images/qhdnrra/top.jpg); background-repeat:no-repeat; padding-left:40px;"><span class="font_blue_16_bold">专家风采</span></div></td>-->
+<!--                    <td width="58"><div align="center"><a href="/php/zhuanjia_list.php?lmid=88" target="_blank" class="fontgery12" style="font-size:10px;">MORE</a></div></td>-->
+<!--                </tr>-->
+<!--            </table>-->
             <div id="foucsBox">
-                <ul class="imgCon">
-                    <!--展示图片开始-->
-                    <li><a href="php/zhuanjia_show.php?id=256" target="_blank">
-                            <img width="290" height="206" src="__PUBLICAPP__/images/qhdnrra/anli_256_1515376251.jpg" /></a>
-                        <div class="imgTitle"><a href="php/zhuanjia_show.php?id=256">樊瑜波</a></div>
-                        <div class="showPage"></div>
-                    </li>
-
-                    <li><a href="php/zhuanjia_show.php?id=255" target="_blank">
-                            <img width="290" height="206" src="__PUBLICAPP__/images/qhdnrra/anli_255_1515376118.jpg" /></a>
-                        <div class="imgTitle"><a href="php/zhuanjia_show.php?id=255">王喜太</a></div>
-                        <div class="showPage"></div>
-                    </li>
-
-                    <li><a href="php/zhuanjia_show.php?id=254" target="_blank">
-                            <img width="290" height="206" src="__PUBLICAPP__/images/qhdnrra/anli_254_1515376014.jpg" /></a>
-                        <div class="imgTitle"><a href="php/zhuanjia_show.php?id=254">秦泗河</a></div>
-                        <div class="showPage"></div>
-                    </li>
-                    <!--展示图片结束-->
-                </ul>
+<!--                <ul class="imgCon">-->
+<!--                    <!--展示图片开始-->-->
+<!--                    <li><a href="php/zhuanjia_show.php?id=256" target="_blank">-->
+<!--                            <img width="290" height="206" src="__PUBLICAPP__/images/qhdnrra/anli_256_1515376251.jpg" /></a>-->
+<!--                        <div class="imgTitle"><a href="php/zhuanjia_show.php?id=256">樊瑜波</a></div>-->
+<!--                        <div class="showPage"></div>-->
+<!--                    </li>-->
+<!---->
+<!--                    <li><a href="php/zhuanjia_show.php?id=255" target="_blank">-->
+<!--                            <img width="290" height="206" src="__PUBLICAPP__/images/qhdnrra/anli_255_1515376118.jpg" /></a>-->
+<!--                        <div class="imgTitle"><a href="php/zhuanjia_show.php?id=255">王喜太</a></div>-->
+<!--                        <div class="showPage"></div>-->
+<!--                    </li>-->
+<!---->
+<!--                    <li><a href="php/zhuanjia_show.php?id=254" target="_blank">-->
+<!--                            <img width="290" height="206" src="__PUBLICAPP__/images/qhdnrra/anli_254_1515376014.jpg" /></a>-->
+<!--                        <div class="imgTitle"><a href="php/zhuanjia_show.php?id=254">秦泗河</a></div>-->
+<!--                        <div class="showPage"></div>-->
+<!--                    </li>-->
+<!--                    <!--展示图片结束-->-->
+<!--                </ul>-->
                 <div class="foucs"></div>
                 <div class="rBtn foucsButton"> <span></span> <img /> </div>
                 <div class="lBtn foucsButton"> <span></span> <img /></div>
