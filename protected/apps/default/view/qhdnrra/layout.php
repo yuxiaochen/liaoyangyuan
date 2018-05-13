@@ -203,6 +203,8 @@
             <div class="yuevents fl clearfix">
                 <div class="events_title"><b>通知公告</b>
                     <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
+                </div>
+                <div>
                     <dl class="eventsDl eventsDlA">
                         <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
                         <dd>2018.05.08</dd>
@@ -214,7 +216,8 @@
         <td width="450" valign="top" bgcolor="#FFFFFF">
             <div class="events fl clearfix">
                 <div class="events_title"><b>活动资讯</b><span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a></div>
-                <!--#begineditable name="活动资讯标题列表" viewid="50730"--><div class="fl">
+                <!--#begineditable name="活动资讯标题列表" viewid="50730"-->
+                <div class="fl">
                     <dl class="eventsDl eventsDlA">
                         <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
                         <dd>2018.05.08</dd>
@@ -274,6 +277,8 @@
                 <div class="yuevents fl clearfix">
                     <div class="events_title"><b>精彩回顾</b>
                         <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
+                        </div>
+                    <div>
                         <dl class="eventsDl eventsDlA">
                             <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
                             <dd>2018.05.08</dd>
@@ -288,7 +293,8 @@
                 <div class="yuevents fl clearfix">
                     <div class="events_title"><b>行业信息</b>
                         <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
-                        <dl class="eventsDl eventsDlA">
+                    </div>
+                    <div><dl class="eventsDl eventsDlA">
                             <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
                             <dd>2018.05.08</dd>
                         </dl>
@@ -299,6 +305,8 @@
             <div class="yuevents fl clearfix">
                 <div class="events_title"><b>专业知识</b>
                     <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
+                </div>
+                <div>
                     <dl class="eventsDl eventsDlA">
                         <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
                         <dd>2018.05.08</dd>
