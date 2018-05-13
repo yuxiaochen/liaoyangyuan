@@ -200,7 +200,7 @@
 <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
     <tr>
         <td width="300" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;">
-            <div class="events fl clearfix">
+            <div class="yuevents fl clearfix">
                 <div class="events_title"><b>通知公告</b>
                     <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>
                     <dl class="eventsDl eventsDlA">
