@@ -41,6 +41,7 @@
 .events_title span{font-size: 24px;color: #e3edf7;font-family: arial;font-weight: bolder;margin-left: 4px;}
 .events_title .more{font-size: 12px;color: #4281c3;}
 .eventsDl{width: 260px;}
+.yuevents{width: 275px;border-bottom: 1px solid #cbcccc;height: 448px;overflow: hidden;}
 .eventsDl dt{padding-top: 10px;font-size: 14px;line-height: 18px;height: 36px;}
 .eventsDl dt a{color: #010101;}
 .eventsDl dt a:hover{color: #6589ba;}
