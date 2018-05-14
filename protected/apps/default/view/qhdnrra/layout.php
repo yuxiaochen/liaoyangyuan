@@ -125,7 +125,7 @@
                             <div class=navoutDiv>
                         <ul>
                          {loop $v1['c'] $v2}
-                            <li><a class=xia href="{$v2['url']}" _fcksavedurl="{$v2['url']}">{$v2['name']}{if $v2['c']}<span class="arrow"></span>{/if}</a> </li> 
+                            <li><a class=xia href="{$v2['url']}" _fcksavedurl="{$v2['url']}">{$v2['name']}</a> </li> 
                          {/loop} 
                         </ul>
                       </div> 
