@@ -17,8 +17,8 @@
 <link rel="stylesheet" href="__PUBLICAPP__/css/css.css" type="text/css">
 <LINK href="__PUBLICAPP__/css/basic.css" type=text/css rel=stylesheet>
 <LINK href="__PUBLICAPP__/css/common.css" type=text/css rel=stylesheet>
-    <LINK href="__PUBLICAPP__/css/index.css" type=text/css rel=stylesheet>
-    <LINK href="__PUBLICAPP__/css/top.css" type=text/css rel=stylesheet>
+<LINK href="__PUBLICAPP__/css/index.css" type=text/css rel=stylesheet>
+<LINK href="__PUBLICAPP__/css/top.css" type=text/css rel=stylesheet>
 <script type="text/javascript" src="__PUBLICAPP__/js/jquery-1.2.6.min.js"></script>
 <script type="text/javascript" src="__PUBLICAPP__/js/lazyload-min.js"></script>
 <script type="text/javascript" src="__PUBLICAPP__/js/jquery.cycle.all.js"></script>
@@ -118,67 +118,20 @@
 <div style="background-image:url(__PUBLICAPP__/images/qhdnrra/qhdnrra_in_bg.gif); background-repeat:repeat-x; height:59px; width:100%;min-width:1200px;">
     <div class=navigation>
         <div class=main_nav>
-            <ul id=nav>
-                <li><a class=nav1 id=a0 href="/">网站首页</a><span></span></li>
-                <li><a class=nav1 id=a1 href="/php/about.php?id=1">分会概况</a><span></span>
-                    <div class=navoutDiv>
+            <ul id=nav> 
+             {loop $sortstree $k1 $v1}
+                 <li {if $rootid==$k1} class="active" {/if} ><a class=nav1 id=a0  href="{$v1['url']}">{$v1['name']}</a><span></span>                    
+                      {if $v1['c']}
+                            <div class=navoutDiv>
                         <ul>
-                            <li><a class=xia href="/php/about.php?id=1" _fcksavedurl="#">&nbsp;分会简介</a> </li>
-                            <li><a class=xia href="/php/about.php?id=2" _fcksavedurl="#">&nbsp;分会章程</a> </li>
-                            <li><a class=xia href="/php/about.php?id=3" _fcksavedurl="#">&nbsp;工作委员会</a> </li>
-                            <li><a class=xia href="/php/about.php?id=4" _fcksavedurl="#">&nbsp;学会工作</a> </li>
+                         {loop $v1['c'] $v2}
+                            <li><a class=xia href="{$v2['url']}" _fcksavedurl="{$v2['url']}">{$v2['name']}{if $v2['c']}<span class="arrow"></span>{/if}</a> </li> 
+                         {/loop} 
                         </ul>
-                    </div>
-                </li>
-
-                <li><a class=nav1 id=a2 href="/php/keyan.php?id=25">成果展示</a><span></span>
-                    <div class=navoutDiv>
-                        <ul>
-                            <li><a class=xia href="/php/keyan.php?id=25" _fcksavedurl="#">&nbsp;科研项目</a> </li>
-                            <li><a class=xia href="/php/keyan.php?id=26" _fcksavedurl="#">&nbsp;论文专区</a> </li>
-                            <li><a class=xia href="/php/keyan.php?id=27" _fcksavedurl="#">&nbsp;专利专区</a> </li>
-                        </ul>
-                    </div></li>
-
-                <li><a class=nav1 id=a3 href="/php/zhijian.php?id=28">会员社区</a><span></span>
-                    <div class=navoutDiv>
-                        <ul>
-                            <li><a class=xia href="/php/zhijian.php?id=28" _fcksavedurl="">&nbsp;关于入会</a> </li>
-                            <li><a class=xia href="/php/zhijian.php?id=29" _fcksavedurl="#">&nbsp;单位会员名录</a> </li>
-                            <li><a class=xia href="/php/zhijian.php?id=30" _fcksavedurl="#">&nbsp;工作报告</a> </li>
-<!--                            <li><a class=xia href="/php/zhijian.php?id=31" _fcksavedurl="#">&nbsp;承检范围</a> </li>-->
-                        </ul>
-                    </div>  </li>
-
-<!--                <li><a class=nav1 id=a4 href="/php/yyk.php?id=32">秦皇岛医养康中心</a><span></span>-->
-<!--                    <div class=navoutDiv>-->
-<!--                        <ul>-->
-<!--                            <li><a class=xia href="/php/yyk.php?id=32" _fcksavedurl="">&nbsp;机构介绍</a> </li>-->
-<!--                            <li><a class=xia href="/php/yyk.php?id=33" _fcksavedurl="#">&nbsp;养老服务</a> </li>-->
-<!--                            <li><a class=xia href="/php/yyk.php?id=34" _fcksavedurl="#">&nbsp;互联网+康复辅具</a> </li>-->
-<!--                        </ul>-->
-<!--                    </div></li>-->
-<!---->
-<!--                <li><a class=nav1 id=a6 href="/php/ziyuan_list.php?lmid=14">资源资讯</a><span></span>-->
-<!--                    <div class=navoutDiv>-->
-<!--                        <ul>-->
-<!--                            <li><a class=xia href="/php/ziyuan_list.php?lmid=14" _fcksavedurl="">&nbsp;政策法规</a> </li>-->
-<!--                            <li><a class=xia href="/php/ziyuan_list.php?lmid=85" _fcksavedurl="#">&nbsp;学术动态</a> </li>-->
-<!--                            <li><a class=xia href="/php/ziyuan_list.php?lmid=86" _fcksavedurl="#">&nbsp;辅具科普知识</a> </li>-->
-<!--                        </ul>-->
-<!--                    </div></li>-->
-<!---->
-<!--                <li><a class=nav1 id=a7 href="/php/cp_list.php?lmid=8">产品服务</a><span></span>-->
-<!--                    <div class=navoutDiv>-->
-<!--                        <ul>-->
-<!--                            <li><a class=xia href="/php/cp_list.php?lmid=8" _fcksavedurl="">&nbsp;辅具产品介绍</a> </li>-->
-<!--                            <li><a class=xia href="/php/cp_list.php?lmid=7" _fcksavedurl="#">&nbsp;辅具租赁产品介绍</a> </li>-->
-<!--                        </ul>-->
-<!--                    </div></li>-->
-
-                <li><a class=nav1 id=a8 href="/php/hezuo.php?id=47">联系我们</a><span></span>
-                </li>
-
+                      </div> 
+                     {/if} 
+                 </li> 
+             {/loop}    
             </ul>
         </div>
     </div>
@@ -197,7 +150,8 @@
         </td>
     </tr>
 </table>
-<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px;">
+
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px; margin: 0 auto">
     <tr>
         <td width="300" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;">
             <div class="yuevents fl clearfix">
@@ -271,7 +225,8 @@
 
     </tr>
 </table>
-<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px; margin-bottom:40px;">
+
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px; margin-bottom:40px; margin:0 auto">
     <tr>
         <td width="280" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;">
                 <div class="yuevents fl clearfix">
@@ -314,6 +269,7 @@
           </td>
     </tr>
 </table>
+
 <div style="background-color:#f4f9fc; height:60px;min-width:1200px;">
     <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
