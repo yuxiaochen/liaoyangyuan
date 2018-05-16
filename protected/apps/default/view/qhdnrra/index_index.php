@@ -16,9 +16,8 @@
 </table>
 
  
-
-<div class="mainL" style="width: 1200px;margin-left:auto">
- <div class="eventVoice clearfix">
+ <div class="mainL" style="width: 120px;margin-left: auto">
+        <div class="eventVoice clearfix">
                         <div class="events fl clearfix">
                             <div class="events_title"><b>活动资讯</b><span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a></div>    
                             <!--#begineditable name="活动资讯标题列表" viewid="50730"--><div class="fl">
@@ -73,9 +72,10 @@
             <dd>2018.05.08</dd>
         </dl>
 
- 
+    </div><script>_showDynClickBatch(['dynclicks_u9_3043','dynclicks_u9_3040','dynclicks_u9_3033','dynclicks_u9_3031','dynclicks_u9_3028','dynclicks_u9_3016','dynclicks_u9_3014','dynclicks_u9_3012'],[3043,3040,3033,3031,3028,3016,3014,3012],"wbnews", 1405884961)</script>
+<!--#endeditable-->
                         </div>
-                        <div class="voice fr clearfix" style="margin-left: 60px;">
+                        <div class="voice fr clearfix">
                             <div class="voice_title"><b>通知公告</b><span>Notice</span><a class="more fr" href="http://news.buaa.edu.cn/xxgg_new.htm" target="_blank">更多</a></div>  
                             <!--#begineditable name="通知公告标题列表" viewid="50732"--><dl class="clearfix" style="margin-top: 0">
                                 <dt>04.12</dt>
@@ -105,15 +105,11 @@
                                 <dt>05.03</dt>
                                 <dd><p><a href="http://news.buaa.edu.cn/info/1010/43409.htm" title="关于校园西路、科技园路一侧行车道临时封闭的通知" target="_blank">关于校园西路、科技园路一侧行车道临时封闭的通知</a></p></dd>
                             </dl>
- 
+<script>_showDynClickBatch(['dynclicks_u10_2916','dynclicks_u10_3044','dynclicks_u10_3035','dynclicks_u10_3019','dynclicks_u10_3015','dynclicks_u10_3009','dynclicks_u10_2992'],[2916,3044,3035,3019,3015,3009,2992],"wbnews", 1405884961)</script>
+<!--#endeditable-->
                         </div>
                     </div>
-
-                    </div>
-
-
-
-
+</div>
 
 
 
