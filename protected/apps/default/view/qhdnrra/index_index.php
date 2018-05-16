@@ -77,7 +77,7 @@
                         </div>
                         <div class="voice fl clearfix" style="margin-left: 60px;">
                             
-                        </style>>
+                        
                             <div class="voice_title"><b>通知公告</b><span>Notice</span><a class="more fr" href="http://news.buaa.edu.cn/xxgg_new.htm" target="_blank">更多</a></div>  
                             <!--#begineditable name="通知公告标题列表" viewid="50732"--><dl class="clearfix" style="margin-top: 0">
                                 <dt>04.12</dt>
