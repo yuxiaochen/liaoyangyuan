@@ -1,0 +1,23 @@
+ .top-banner {
+            WIDTH: 1200px; POSITION: relative; TEXT-ALIGN: center; MARGIN: 0px auto; HEIGHT:360px;
+        }
+        .top-banner A {
+            WIDTH: 100%; DISPLAY: block; FLOAT: left;
+        }
+
+        .tabBox {
+            Z-INDEX: 48; POSITION: absolute; TEXT-ALIGN: center; MARGIN: -30px auto 0px; WIDTH: 160px; HEIGHT: 10px; LEFT: 47%
+        }
+
+        .tabBox UL {
+            PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+        }
+        .tabBox A {
+            LINE-HEIGHT: 0; TEXT-INDENT: -9999px; MARGIN: 0px 5px; WIDTH: 10px; DISPLAY: inline-block; BACKGROUND: #ce0609; FLOAT: left; HEIGHT:
+
+            10px; FONT-SIZE: 0px; CURSOR: pointer
+        }
+        .tabBox A.activeSlide {
+            BACKGROUND: #fff
+        }
+        .STYLE1 {font-size: 14px}
