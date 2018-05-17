@@ -20,51 +20,30 @@
         <div class="eventVoice clearfix">
                         <div class="events fl clearfix">
                             <div class="events_title"><b>{$sorts['100028']['name']}</b><span>{$sorts['100028']['ename']}</span><a class="more fr" href="{$sorts['100028']['url']}" target="_blank">更多</a></div>    
-                            <div class="fl">
-<dl class="eventsDl eventsDlA">
-            <dt><a href="http://news.buaa.edu.cn/info/1011/43708.htm" title="【预告】北航大讲堂|空间与环境学院第二届创新论坛暨致真书院高端论坛系列讲座" target="_blank">【预告】北航大讲堂|空间与环境学院第二届创新论坛暨致真书院高端论坛系列讲座</a></dt>
-            <dd>2018.05.16</dd>
-        </dl>
+ <div class="fl"> 
 
-<dl class="eventsDl eventsDlB">
-            <dt><a href="http://news.buaa.edu.cn/info/1011/43706.htm" title="【北航音乐厅预告】开心麻花话剧《婿事待发》" target="_blank">【北航音乐厅预告】开心麻花话剧《婿事待发》</a></dt>
-            <dd>2018.05.16</dd>
-        </dl>
+{news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100028) where=(ispass='1') limit=(8)}}     
 
-<dl class="eventsDl eventsDlA">
-            <dt><a href="http://news.buaa.edu.cn/info/1011/43661.htm" title="关于开展我校青年教师与校友企业产学研交流活动的通知" target="_blank">关于开展我校青年教师与校友企业产学研交流活动的通知</a></dt>
-            <dd>2018.05.15</dd>
-        </dl>
+{if $news_i<=4}                      
+      <dl class="eventsDl eventsDlA">
+            <dt><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]">[news:title $len=30]</a></dt>
+            <dd>{date($news['addtime'],Y.m.d)}</dd>
+        </dl> 
+{/if}
 
-<dl class="eventsDl eventsDlB">
-            <dt><a href="http://news.buaa.edu.cn/info/1011/43631.htm" title="【北航音乐厅预告】第十八届“相约北京”艺术节——歌舞多彩巴尔干——塞尔维亚贝尔格莱德大学民族歌舞团和民族乐团" target="_blank">【北航音乐厅预告】第十八届“相约北京”艺术节——歌舞多彩巴尔干——塞尔维亚贝尔格莱德大学民族歌舞团和民族乐团</a></dt>
-            <dd>2018.05.14</dd>
-        </dl>
- 
-    </div> 
- <div class="fr">
- 
-<dl class="eventsDl eventsDlB">
-            <dt><a href="http://news.buaa.edu.cn/info/1011/43624.htm" title="研究生人文与科学素养系列讲座预告（5.14-5.20）" target="_blank">研究生人文与科学素养系列讲座预告（5.14-5.20）</a></dt>
-            <dd>2018.05.13</dd>
-        </dl>
+ {if $news_i==4} 
+       </div> 
+      <div class="fr">
+ {/if}
 
-<dl class="eventsDl eventsDlA">
-            <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>
-            <dd>2018.05.08</dd>
+ {if $news_i>4} 
+ <dl class="eventsDl eventsDlB">
+            <dt><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]">[news:title $len=30]</a></dt>
+            <dd>{date($news['addtime'],Y.m.d)}</dd>
         </dl>
-
-<dl class="eventsDl eventsDlB">
-            <dt><a href="http://news.buaa.edu.cn/info/1011/43533.htm" title="【预告】2018届本科生“毕业嘉年华”活动" target="_blank">【预告】2018届本科生“毕业嘉年华”活动</a></dt>
-            <dd>2018.05.08</dd>
-        </dl>
-
-<dl class="eventsDl eventsDlA">
-            <dt><a href="http://news.buaa.edu.cn/info/1011/43521.htm" title="【预告】北航高研论坛•非物质文化遗产系列讲座 | 覃代伦：锦说中华——中国民族织锦艺术审美史纲" target="_blank">【预告】北航高研论坛•非物质文化遗产系列讲座 | 覃代伦：锦说中华——中国民族织锦艺术审美史纲</a></dt>
-            <dd>2018.05.08</dd>
-        </dl>
-
-    </div>
+ {/if}  
+{/news}  
+ </div>  
 
 <script>_showDynClickBatch(['dynclicks_u9_3043','dynclicks_u9_3040','dynclicks_u9_3033','dynclicks_u9_3031','dynclicks_u9_3028','dynclicks_u9_3016','dynclicks_u9_3014','dynclicks_u9_3012'],[3043,3040,3033,3031,3028,3016,3014,3012],"wbnews", 1405884961)
 </script>
