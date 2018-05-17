@@ -46,45 +46,20 @@
  </div>   
   </div>
 
-        <div class="voice fl clearfix" style="margin-left: 60px;">
-                            
-                        
-                            <div class="voice_title"><b>通知公告</b><span>Notice</span><a class="more fr" href="http://news.buaa.edu.cn/xxgg_new.htm" target="_blank">更多</a></div>  
-                            <!--#begineditable name="通知公告标题列表" viewid="50732"--><dl class="clearfix" style="margin-top: 0">
-                                <dt>04.12</dt>
-                                <dd><p><a href="http://news.buaa.edu.cn/info/1010/43033.htm" title="北京航空航天大学关于公开遴选部分学院院长的公告" target="_blank">北京航空航天大学关于公开遴选部分学院院长的公告</a></p></dd>
-                            </dl>
-<dl class="clearfix">
-                                <dt>05.16</dt>
-                                <dd><p><a href="http://news.buaa.edu.cn/info/1010/43710.htm" title="2018年大学生征兵入伍工作通知暨征兵优待政策简介" target="_blank">2018年大学生征兵入伍工作通知暨征兵优待政策简介</a></p></dd>
-                            </dl>
-<dl class="clearfix">
-                                <dt>05.15</dt>
-                                <dd><p><a href="http://news.buaa.edu.cn/info/1010/43678.htm" title="关于举办2018年北京航空航天大学校园开放日暨高招咨询活动的通知" target="_blank">关于举办2018年北京航空航天大学校园开放日暨高招咨询活动的通知</a></p></dd>
-                            </dl>
-<dl class="clearfix">
-                                <dt>05.09</dt>
-                                <dd><p><a href="http://news.buaa.edu.cn/info/1010/43569.htm" title="关于办理2018年北航机动车停车证的通告" target="_blank">关于办理2018年北航机动车停车证的通告</a></p></dd>
-                            </dl>
-<dl class="clearfix">
-                                <dt>05.08</dt>
-                                <dd><p><a href="http://news.buaa.edu.cn/info/1010/43548.htm" title="2018年莫斯科航空学院暑期学校通知" target="_blank">2018年莫斯科航空学院暑期学校通知</a></p></dd>
-                            </dl>
-<dl class="clearfix">
-                                <dt>05.07</dt>
-                                <dd><p><a href="http://news.buaa.edu.cn/info/1010/43507.htm" title="关于申报2018年北航“学院国际评估支持计划”的通知" target="_blank">关于申报2018年北航“学院国际评估支持计划”的通知</a></p></dd>
-                            </dl>
-<dl class="clearfix">
-                                <dt>05.03</dt>
-                                <dd><p><a href="http://news.buaa.edu.cn/info/1010/43409.htm" title="关于校园西路、科技园路一侧行车道临时封闭的通知" target="_blank">关于校园西路、科技园路一侧行车道临时封闭的通知</a></p></dd>
-                            </dl>
-<script>_showDynClickBatch(['dynclicks_u10_2916','dynclicks_u10_3044','dynclicks_u10_3035','dynclicks_u10_3019','dynclicks_u10_3015','dynclicks_u10_3009','dynclicks_u10_2992'],[2916,3044,3035,3019,3015,3009,2992],"wbnews", 1405884961)</script>
-<!--#endeditable-->
-                        </div>
-                    </div>
-</div>
+ 
+ <div class="voice fl clearfix" style="margin-left: 60px;"> 
+      <div class="voice_title"><b>{$sorts['100029']['name']}</b><span>{$sorts['100029']['ename']}</span><a class="more fr" href="{$sorts['100029']['url']}" target="_blank">更多</a></div>  
 
+{news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100029) where=(ispass='1') limit=(7)}}   
 
+ <dl class="clearfix" style="margin-top: 0">
+         <dt>{date($news['addtime'],m-d)}</dt>
+               <dd><p><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]"> [news:title $len=40]</a></p></dd>
+      </dl> 
+{/news}  
+     </div>
+      </div>
+</div> 
 
 
 
