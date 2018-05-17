@@ -26,8 +26,8 @@
 
 {if $news_i<=4}                      
       <dl class="eventsDl eventsDlA">
-            <dt><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]">[news:title $len=30]</a></dt>
-            <dd>{date($news['addtime'],Y.m.d)}</dd>
+            <dt><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]">[news:title $len=40]</a></dt>
+            <dd>{date($news['addtime'],Y-m-d)}</dd>
         </dl> 
 {/if}
 
@@ -38,16 +38,12 @@
 
  {if $news_i>4} 
  <dl class="eventsDl eventsDlB">
-            <dt><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]">[news:title $len=30]</a></dt>
-            <dd>{date($news['addtime'],Y.m.d)}</dd>
+            <dt><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]">[news:title $len=40]</a></dt>
+            <dd>{date($news['addtime'],Y-m-d)}</dd>
         </dl>
  {/if}  
 {/news}  
- </div>  
-
-<script>_showDynClickBatch(['dynclicks_u9_3043','dynclicks_u9_3040','dynclicks_u9_3033','dynclicks_u9_3031','dynclicks_u9_3028','dynclicks_u9_3016','dynclicks_u9_3014','dynclicks_u9_3012'],[3043,3040,3033,3031,3028,3016,3014,3012],"wbnews", 1405884961)
-</script>
-<!--#endeditable-->
+ </div>   
   </div>
 
         <div class="voice fl clearfix" style="margin-left: 60px;">
