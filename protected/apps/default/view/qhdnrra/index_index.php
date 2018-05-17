@@ -19,8 +19,8 @@
  <div class="mainL" style="width: 1200px;margin-left: auto">
         <div class="eventVoice clearfix">
                         <div class="events fl clearfix">
-                            <div class="events_title"><b>活动资讯</b><span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a></div>    
-                            <!--#begineditable name="活动资讯标题列表" viewid="50730"--><div class="fl">
+                            <div class="events_title"><b>{$sorts['100028']['name']}</b><span>{$sorts['100028']['ename']}</span><a class="more fr" href="{$sorts['100028']['url']}" target="_blank">更多</a></div>    
+                            <div class="fl">
 <dl class="eventsDl eventsDlA">
             <dt><a href="http://news.buaa.edu.cn/info/1011/43708.htm" title="【预告】北航大讲堂|空间与环境学院第二届创新论坛暨致真书院高端论坛系列讲座" target="_blank">【预告】北航大讲堂|空间与环境学院第二届创新论坛暨致真书院高端论坛系列讲座</a></dt>
             <dd>2018.05.16</dd>
@@ -40,18 +40,10 @@
             <dt><a href="http://news.buaa.edu.cn/info/1011/43631.htm" title="【北航音乐厅预告】第十八届“相约北京”艺术节——歌舞多彩巴尔干——塞尔维亚贝尔格莱德大学民族歌舞团和民族乐团" target="_blank">【北航音乐厅预告】第十八届“相约北京”艺术节——歌舞多彩巴尔干——塞尔维亚贝尔格莱德大学民族歌舞团和民族乐团</a></dt>
             <dd>2018.05.14</dd>
         </dl>
-
-
-
-
-
-    </div>
-    
-    <div class="fr">
-
-
-
-
+ 
+    </div> 
+ <div class="fr">
+ 
 <dl class="eventsDl eventsDlB">
             <dt><a href="http://news.buaa.edu.cn/info/1011/43624.htm" title="研究生人文与科学素养系列讲座预告（5.14-5.20）" target="_blank">研究生人文与科学素养系列讲座预告（5.14-5.20）</a></dt>
             <dd>2018.05.13</dd>
@@ -72,10 +64,14 @@
             <dd>2018.05.08</dd>
         </dl>
 
-    </div><script>_showDynClickBatch(['dynclicks_u9_3043','dynclicks_u9_3040','dynclicks_u9_3033','dynclicks_u9_3031','dynclicks_u9_3028','dynclicks_u9_3016','dynclicks_u9_3014','dynclicks_u9_3012'],[3043,3040,3033,3031,3028,3016,3014,3012],"wbnews", 1405884961)</script>
+    </div>
+
+<script>_showDynClickBatch(['dynclicks_u9_3043','dynclicks_u9_3040','dynclicks_u9_3033','dynclicks_u9_3031','dynclicks_u9_3028','dynclicks_u9_3016','dynclicks_u9_3014','dynclicks_u9_3012'],[3043,3040,3033,3031,3028,3016,3014,3012],"wbnews", 1405884961)
+</script>
 <!--#endeditable-->
-                        </div>
-                        <div class="voice fl clearfix" style="margin-left: 60px;">
+  </div>
+
+        <div class="voice fl clearfix" style="margin-left: 60px;">
                             
                         
                             <div class="voice_title"><b>通知公告</b><span>Notice</span><a class="more fr" href="http://news.buaa.edu.cn/xxgg_new.htm" target="_blank">更多</a></div>  
