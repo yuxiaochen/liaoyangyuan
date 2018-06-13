@@ -1,4 +1,4 @@
-<div class="layout bg-blue fadein-left">
+<div class="layout  fadein-left">
     <div class="container">
         <div class="banner" data-pointer="1" data-interval="6" data-item="1" data-small="1" data-middle="1" data-big="1" data-style="border-white">
             <div class="carousel">
