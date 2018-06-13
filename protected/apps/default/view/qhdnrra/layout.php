@@ -20,15 +20,17 @@
 <LINK href="__PUBLICAPP__/css/index.css" type=text/css rel=stylesheet>
 <LINK href="__PUBLICAPP__/css/top.css" type=text/css rel=stylesheet>
 <LINK href="__PUBLICAPP__/css/page.css" type=text/css rel=stylesheet>
+<LINK href="__PUBLICAPP__/css/pintuer.css" type=text/css rel=stylesheet>
 <script type="text/javascript" src="__PUBLICAPP__/js/jquery-1.2.6.min.js"></script>
 <script type="text/javascript" src="__PUBLICAPP__/js/lazyload-min.js"></script>
 <script type="text/javascript" src="__PUBLICAPP__/js/jquery.cycle.all.js"></script>
 <script type="text/javascript" src="__PUBLICAPP__/js/foucsbox.js"></script>
 <script src="__PUBLICAPP__/js/navigation.js" type=text/javascript></script>
 <script src="__PUBLICAPP__/js/page.js" type=text/javascript></script>
+<script src="__PUBLICAPP__/js/pintuer.js" type=text/javascript></script>
 </head>
 <body>
-<div style="width:100%;background-image:url('__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_02.jpg'); background-repeat:repeat-x;height:236px;">
+<div style="width:100%;background-image:url('__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_02.jpg'); background-repeat:repeat-x;margin-bottom: 10px;">
     <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_04.jpg" style="padding-top:0px;">
         <tr>
             <td width="775" height="236"><div align="right"><a href="/"><img src="__PUBLICAPP__/images/qhdnrra/logo.png" width="745" height="131" border="0" /></a></div></td>

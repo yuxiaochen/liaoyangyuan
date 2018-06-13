@@ -1,20 +1,18 @@
-<table width="1200px" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:25px;">
-    <tr>
-        <td bgcolor="#FFFFFF">
-            <div id=banner class=top-banner>
-            {link:banner}<!--全部链接使用link:all-->
-             {if $link['picpath']}  
-                 <a style="BACKGROUND: url([link:picpath]) no-repeat center top; HEIGHT: 360px;min-width:1200px; CURSOR: pointer" href="[link:url]" target="_blank"></a>
-             {/if} 
+<div class="layout bg-blue fadein-left">
+    <div class="container">
+        <div class="banner" data-pointer="1" data-interval="6" data-item="1" data-small="1" data-middle="1" data-big="1" data-style="border-white">
+            <div class="carousel">
+            {link:banner}
+             {if $link['picpath']}
+                 <div class="item"><a href="[link:url]" target="_blank">
+                         <img src="[link:picpath]" alt="[link:name]" class="img-responsive"></a></div>
+                {else}<div class="item"><a href="[link:url]" target="_blank">[link:name]</a></div>
+              {/if}
              {/link} 
             </div>
-            <DIV class=tabBox>
-                <UL id=btn></UL>
-            </DIV>
-        </td>
-    </tr>
-</table>
-
+        </div>
+    </div>
+</div>
  
  <div class="mainL" style="width: 1200px;margin-left: auto">
         <div class="eventVoice clearfix">
