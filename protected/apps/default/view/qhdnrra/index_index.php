@@ -61,67 +61,59 @@
       </div>
 </div>
 
-<div class="voice fl clearfix" style="margin-left: 60px;">
-    <div class="voice_title"><b>{$sorts['100030']['name']}</b><span>{$sorts['100030']['ename']}</span><a class="more fr" href="{$sorts['100030']['url']}" target="_blank">更多</a>
-    </div>
 
-    {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100030) where=(ispass='1') limit=(7)}}
+<table   border="0" align="center" cellpadding="0" cellspacing="0" style="width: 1200px;margin-left: auto;">
+    <tr>
+        <td width="280" valign="top" bgcolor="#FFFFFF">
+            <div class="yuevents fl clearfix">
+                <div class="events_title"><b>{$sorts['100030']['name']}</b>
+                    <span>Events</span><a class="more fr" href="{$sorts['100030']['url']}" target="_blank">更多</a>
+                </div>
+                <div>
+                    {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100030) where=(ispass='1') limit=(5)}}
+                    <dl class="eventsDl eventsDlA">
+                        <dt><a href="[news:url]" title="[news:title]" target="_blank"> [news:title $len=40]</a></dt>
+                        <dd>{date($news['addtime'],Y-m-d)}</dd>
+                    </dl>
+                    {/news}
+                </div>
+            </div>
+        </td>
+        <td width="280" valign="top" bgcolor="#FFFFFF">
+            <div class="yuevents fl clearfix">
+                <div class="events_title"><b>{$sorts['100031']['name']}</b>
+                    <span>Events</span><a class="more fr" href="{$sorts['100031']['url']}" target="_blank">更多</a>
+                </div>
+                <div>
+                    {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100031) where=(ispass='1') limit=(5)}}
+                    <dl class="eventsDl eventsDlA">
+                        <dt><a href="[news:url]" title="[news:title]" target="_blank"> [news:title $len=40]</a></dt>
+                        <dd>{date($news['addtime'],Y-m-d)}</dd>
+                    </dl>
+                    {/news}
+                </div>
+            </div>
+        </td>
+        <td width="280" valign="top" bgcolor="#FFFFFF">
+            <div class="yuevents fl clearfix">
+                <div class="events_title"><b>{$sorts['100032']['name']}</b>
+                    <span>Events</span><a class="more fr" href="{$sorts['100032']['url']}" target="_blank">更多</a>
+                </div>
+                <div>
+                    {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100032) where=(ispass='1') limit=(5)}}
+                    <dl class="eventsDl eventsDlA">
+                        <dt><a href="[news:url]" title="[news:title]" target="_blank">[news:title $len=40]</a></dt>
+                        <dd>{date($news['addtime'],Y-m-d)}</dd>
+                    </dl>
+                    {/news}
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
 
-    <dl class="clearfix" style="margin-top: 0">
-        <dt>{date($news['addtime'],m-d)}</dt>
-        <dd><p><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]"> [news:title $len=40]</a></p></dd>
-    </dl>
-    {/news}
-</div>
 
 
 
 
-<!--<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:10px; margin-bottom:40px; margin:0 auto">-->
-<!--    <tr>-->
-<!--        <td width="280" height="80" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;">-->
-<!--                <div class="yuevents fl clearfix">-->
-<!--<!--                    <div class="events_title"><b>精彩回顾</b>-->-->
-<!--<!--                        <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>-->-->
-<!--<!--                        </div>-->-->
-<!--                    <div class="voice_title"><b>{$sorts['100030']['name']}</b><span>{$sorts['100030']['ename']}</span><a class="more fr" href="{$sorts['100030']['url']}" target="_blank">更多</a>-->
-<!--                    </div>-->
-<!--                    {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100029) where=(ispass='1') limit=(7)}}-->
-<!--                    <div>-->
-<!--                        <dl class="eventsDl eventsDlA">-->
-<!--                            <dt>{date($news['addtime'],m-d)</dt>-->
-<!--                            <dd><p><a href="[news:url]" title="[news:title]" target="_blank" style="color:[news:color]"> [news:title $len=40]</a></p></dd>-->
-<!---->
-<!--                        </dl>-->
-<!--                    </div>-->
-<!--                    {/news}-->
-<!--                </div>-->
-<!--        </td>-->
-<!--        <td width="280" valign="top" bgcolor="#FFFFFF">-->
-<!---->
-<!--                <div class="yuevents fl clearfix">-->
-<!--                    <div class="events_title"><b>行业信息</b>-->
-<!--                        <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>-->
-<!--                    </div>-->
-<!--                    <div><dl class="eventsDl eventsDlA">-->
-<!--                            <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>-->
-<!--                            <dd>2018.05.08</dd>-->
-<!--                        </dl>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--        </td>-->
-<!--        <td width="280" valign="top" bgcolor="#FFFFFF">-->
-<!--            <div class="yuevents fl clearfix">-->
-<!--                <div class="events_title"><b>专业知识</b>-->
-<!--                    <span>Events</span><a class="more fr" href="http://news.buaa.edu.cn/xsjwhhd_new.htm" target="_blank">更多</a>-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                    <dl class="eventsDl eventsDlA">-->
-<!--                        <dt><a href="http://news.buaa.edu.cn/info/1011/43549.htm" title="【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会" target="_blank">【北航音乐厅预告】北京交响乐团“坚定文化自信•弘扬正能量”2018年进校园北航专场音乐会</a></dt>-->
-<!--                        <dd>2018.05.08</dd>-->
-<!--                    </dl>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--          </td>-->
-<!--    </tr>-->
-<!--</table>-->
+
