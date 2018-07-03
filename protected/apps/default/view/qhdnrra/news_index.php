@@ -15,7 +15,7 @@
                  <div class="media media-x">
 <!--                     {if $vo['picture'] && $vo['picture']!='NoPic.gif'}<a class="float-left" title="{$vo['title']}" href="{$vo['url']}" target="_blank"><img src="{$vo['picturepath']}" class="radius" alt="{$vo['title']}"></a>{/if}-->
                      <div class="media-body height-big">
-                         <strong class="float-left" style="color:{$vo['color']}">{$vo['title']}</strong>
+                         <strong class="float-left" style="color:{$vo['color']}" href="{$vo['url']}" target="_blank">>{$vo['title']}</strong>
                          <span class="text-gray float-right hidden-l">{date($vo['addtime'],Y-m-d H:m:i)}&nbsp;&nbsp;点击:{$vo['hits']}</span>
                          <p class="clear">
                          {$vo['description']}...&nbsp;<a class="button button-little bg-blue swing-hover" href="{$vo['url']}">查看详情</a><br>
