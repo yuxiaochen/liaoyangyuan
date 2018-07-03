@@ -33,8 +33,8 @@
 <div style="width:100%;background-image:url('__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_02.jpg'); background-repeat:repeat-x;margin-bottom: 10px;">
     <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_04.jpg" style="padding-top:0px;">
         <tr>
-            <td width="775"><div align="right"><a href="/"><img src="__PUBLICAPP__/images/qhdnrra/logo.png" width="745" height="131" border="0" /></a></div></td>
-            <td width="425"><div align="center" style="padding-bottom:5px;"><img src="__PUBLICAPP__/images/qhdnrra/weixin.png" width="87" height="86" /></div>
+            <td width="1175"><div align="right"><a href="/"><img src="__PUBLICAPP__/images/qhdnrra/new_logo.png" width="1145" height="131" border="0" /></a></div></td>
+<!--            <td width="425"><div align="center" style="padding-bottom:5px;"><img src="__PUBLICAPP__/images/qhdnrra/weixin.png" width="87" height="86" /></div>-->
                 <table width="60%" border="0" align="center" cellpadding="0" cellspacing="0">
                     <form action="#" method="get" name="formSearch" id="formSearch">
                         <input type="hidden" name="action" value="search" />
