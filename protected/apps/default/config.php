@@ -9,6 +9,6 @@ return array (
   'TPL' => 
   array (
     'TPL_TEMPLATE_PATH' => 'qhdnrra',
-    'TPL_TEMPLATE_PATH_MOBILE' => 'default',
+    'TPL_TEMPLATE_PATH_MOBILE' => 'qhdnrra',
   ),
 );
