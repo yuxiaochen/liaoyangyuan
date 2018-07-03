@@ -17,7 +17,7 @@
              {loop $alist $vo}
              <li>
                  <div class="media media-x">
-                     {if $vo['picture'] && $vo['picture']!='NoPic.gif'}<a class="float-left" title="{$vo['title']}" href="{$vo['url']}" target="_blank"><img src="{$vo['picturepath']}" class="radius" alt="{$vo['title']}"></a>{/if}
+<!--                     {if $vo['picture'] && $vo['picture']!='NoPic.gif'}<a class="float-left" title="{$vo['title']}" href="{$vo['url']}" target="_blank"><img src="{$vo['picturepath']}" class="radius" alt="{$vo['title']}"></a>{/if}-->
                      <div class="media-body height-big">
                          <strong class="float-left" style="color:{$vo['color']}">{$vo['title']}</strong>
                          <span class="text-gray float-right hidden-l">{date($vo['addtime'],Y-m-d H:m:i)}&nbsp;&nbsp;点击:{$vo['hits']}</span>
