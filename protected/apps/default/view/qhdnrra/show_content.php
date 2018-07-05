@@ -80,12 +80,11 @@
     }
 
     //自适应iframe高度
-    function IFrameReSize(){
+    function setIrameReSize(){
         var a= document.getElementById("content");
-        a.height = a.contentDocument.body.scrollHeight;
-    }
-
-    IFrameReSize();
+        window.parent.document.getElementById('content').height=a.contentDocument.body.scrollHeight;
+    } 
+    setIrameReSize();
 </script>
 
 </body></html>
