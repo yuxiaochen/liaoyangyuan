@@ -44,18 +44,7 @@
         <div class=main_nav>
             <ul id=nav> 
              {loop $sortstree $k1 $v1}
-                 <li {if $rootid==$k1} class="active" {/if} ><a class=nav1 id=a0  href="{$v1['url']}">{$v1['name']}</a><span></span>                    
-                      {if $v1['c']}
-                            <div class=navoutDiv>
-                        <ul>
-                         {loop $v1['c'] $v2}
-                            <li><a class=xia href="{$v2['url']}" _fcksavedurl="{$v2['url']}">{$v2['name']}</a> </li> 
-                         {/loop} 
-                        </ul>
-                      </div> 
-                     {/if} 
-                 </li> 
-             {/loop}    
+                 <li style="width: 110px" {if $rootid==$k1} class="active" {/if} ><a class=nav1 id=a0  href="{$v1['url']}">{$v1['name']}</a><span></span></li>             {/loop}
             </ul>
         </div>
     </div>
