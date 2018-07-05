@@ -33,23 +33,7 @@
 <div style="width:100%;background-image:url('__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_02.jpg'); background-repeat:repeat-x;margin-bottom: 10px;">
     <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_04.jpg" style="padding-top:0px;">
         <tr>
-            <td width="1175"><div align="right"><a href="/"><img src="__PUBLICAPP__/images/qhdnrra/new_logo.png" width="1145" height="131" border="0" /></a></div></td>
-<!--            <td width="425"><div align="center" style="padding-bottom:5px;"><img src="__PUBLICAPP__/images/qhdnrra/weixin.png" width="87" height="86" /></div>-->
-                <table width="60%" border="0" align="center" cellpadding="0" cellspacing="0">
-                    <form action="#" method="get" name="formSearch" id="formSearch">
-                        <input type="hidden" name="action" value="search" />
-                        <tr>
-                            <td width="77%" height="31" style="padding-left:0px;"><div align="right"><span class="font_white_bold_12">
-                    <input name="condtitle" type="text" id="condtitle" style="border:1px solid #E9E9E9; height:23px; padding-top:4px;" value="" size="25">
-</span></div></td>
-                            <td width="23%"><div align="center" style="padding-top:0px;">
-                                    <div align="left">
-                                        <input name="image" type="image" src="__PUBLICAPP__/images/qhdnrra/ss.png">
-                                    </div>
-                                </div></td>
-                        </tr>
-                    </form>
-                </table></td>
+            <td width="1175"><div align="right"><a href="/"><img src="__PUBLICAPP__/images/qhdnrra/logo.jpg" width="1145" height="131" border="0" /></a></div></td>
         </tr>
     </table>
 </div>

@@ -14,7 +14,7 @@ class newsController extends commonController
 	//列表
 	public function index()
 	{
-		$listRows=20;//每页显示的信息条数
+		$listRows=10;//每页显示的信息条数
 		$url=url('news/index',array('page'=>'{page}'));
 		$sortlist=model('sort')->select('','id,name,ename,deep,path,norder,type');
 		//类别条件
