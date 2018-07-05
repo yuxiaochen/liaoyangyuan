@@ -100,7 +100,7 @@
                     <span>Events</span><a class="more fr" href="{$sorts['100032']['url']}" target="_blank">更多</a>
                 </div>
                 <div>
-                    {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100032) where=(ispass='1') limit=(5)}}
+                    {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100032) where=(ispass='1') limit=(4)}}
                     <dl class="eventsDl eventsDlA">
                         <dt><a href="[news:url]" title="[news:title]" target="_blank">[news:title $len=40]</a></dt>
                         <dd>{date($news['addtime'],Y-m-d)}</dd>
