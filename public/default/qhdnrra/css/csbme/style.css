@@ -3,7 +3,7 @@ body{font-size: 12px; }
 a{ text-decoration:none;color: #444444;}
 img,input{ border:none; border:1px solid none;font-family: Helvetica,Arial,sans-serif;}
 li{ list-style:none;}
-a:hover{color: #00469E!important;}
+
 
 .top{height: 30px;width: 100%;background: url("../../images/csbme/topbg.jpg") repeat-x;line-height: 30px;}
 /*.top .content .inf{line-height: 30px;color: #444444;}*/
@@ -598,9 +598,6 @@ DIV.black2 SPAN.disabled {
     border-radius:50%;
     background:#4D8CD1;
     margin:0px 3px;
-}
-#slide .slide-nav .slide-nav-box a.active{
-    background:#ffffff;
 }
 
 /*ѧ������-��ѧѧ����ƻ�*/

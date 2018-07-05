@@ -4,17 +4,6 @@
 <link rel="stylesheet" href="__PUBLICAPP__/css/csbme/flexslider.css" />
 <link rel="stylesheet" href="__PUBLICAPP__/css/csbme/org-add.css" />
 
-<script src="http://www.csbme.org/themes/csbme/js/jquery.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/ui-select.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/test.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/js.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/org-add.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/jquery.flexslider-min.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/jquery.cxslide.min.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/jquery.cxscroll.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/nav.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/jquery.js"></script>
-<script src="http://www.csbme.org/themes/csbme/js/indexJs.js"></script>
 
 <div class="container margin-top">
   <div class="line-middle">
