@@ -17,7 +17,7 @@
     <script src="http://www.csbme.org/themes/csbme/js/jquery.js"></script>
 </head>
 <body>
-<div class="right orgazinationcon" style="position: relative;">
+<div class="right orgazinationcon" style="position: relative;" id="contents">
     <!--学会简介-->
     <div class="orgtitle indexorg">
         <p>{$info['title']}</p>
@@ -81,9 +81,9 @@
 
     //自适应iframe高度
     function setIrameReSize(){
-        var a= document.getElementById("content");
-        window.parent.document.getElementById('content').height=a.contentDocument.body.scrollHeight;
-    } 
+        var a= document.getElementById("contents");
+        window.parent.document.getElementById('content').height = a.scrollHeight;
+    }
     setIrameReSize();
 </script>
 
