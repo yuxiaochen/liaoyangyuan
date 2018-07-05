@@ -9,9 +9,18 @@ class columnController extends commonController
 		$path=$sortinfo['path'].','.$sortinfo['id'];
 		$deep=$sortinfo['deep']+1;
 		$this->col=$ename;
+
+        $tpl = '';
+        //联系我们 test
+        if($ename == "100034"){
+             $tpl = "news_contact";
+        }
+        ////
+
+
 		switch ($sortinfo['type']) {
 			case 1://文章
-				$this->newslist($sortinfo,$path,$deep);
+				$this->newslist($sortinfo,$path,$deep,$tpl);
 				break;
 			case 2://图集
 				$this->photolist($sortinfo,$path,$deep);
@@ -47,6 +56,28 @@ class columnController extends commonController
         switch ($sortinfo['type']) {
             case 1://文章
                 $this->newslist($sortinfo, $path, $deep,'news_list');
+                break;
+        }
+    }
+
+
+    public function showContent()
+    {
+        $this->layout = null;
+        $ename=in($_GET['col']);
+        $id=intval($_GET['id']);
+        if(empty($ename) || empty($id)) throw new Exception('参数错误~', 404);
+        $this->col=$ename;
+        $sortinfo=model('sort')->find("ename='{$ename}'",'id,type');
+        switch ($sortinfo['type']) {
+            case 1://文章
+                $this->newscon($ename,$id,$sortinfo['id'],'show_content');
+                break;
+            case 2://图集
+                $this->photocon($id,$sortinfo['id']);
+                break;
+            default:
+                throw new Exception('此类型下没有内容~', 404);
                 break;
         }
     }
@@ -102,7 +133,7 @@ class columnController extends commonController
 	    $limit=$this->pageLimit($url,$listRows);
 		$count=model('news')->count($where);
 		if(empty($sortinfo['extendid']))
-		    $list=model('news')->select($where,'id,title,places,color,sort,exsort,addtime,origin,hits,method,picture,keywords,description','recmd DESC,norder desc,id DESC',$limit);
+		    $list=model('news')->select($where,'id,title,places,color,sort,releids,exsort,addtime,origin,hits,method,picture,keywords,description','recmd DESC,norder desc,id DESC',$limit);
 		else {
 			$exid=$sortinfo['extendid'];
 			$extables=model('extend')->select("id='{$exid}' or pid='{$exid}'","tableinfo","pid,norder DESC");
@@ -137,6 +168,14 @@ class columnController extends commonController
         },$this->daohang);
         $this->crumbs = trim($crumbs,"> ");
 
+
+//		echo '<pre>';
+//		print_r($this->alist);
+//		exit;
+
+        $this->alistId = isset($list[0]) ? $list[0]['id'] : '0';
+        $this->alistCol = isset($list[0]) ? $list[0]['sort'] : '0';
+
         if(!empty($tpl)){
 		    $this->display($tpl);
         }else{
@@ -144,7 +183,7 @@ class columnController extends commonController
         }
 	}
 	
-	protected function newscon($ename,$id,$sid)
+	protected function newscon($ename,$id,$sid,$tpl='')
 	{
         $info=model('news')->find("id='{$id}' and ispass='1' and sort like '%,".$sid."'");
         if(empty($info))  throw new Exception('内容不存在或未审核~', 404);
@@ -205,7 +244,11 @@ class columnController extends commonController
 		if(strlen($info['sort'])>12) $this->ppid=substr($info['sort'],-13,6);
 		$this->downnews=$downnews;
 		$this->upnews=$upnews;
-		$this->display($info['tpcontent']);
+        if(!empty($tpl)){
+            $this->display($tpl);
+        }else{
+		    $this->display($info['tpcontent']);
+        }
 	}
 
 	protected function photolist($sortinfo,$path,$deep)
