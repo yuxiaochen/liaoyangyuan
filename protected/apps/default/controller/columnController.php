@@ -33,6 +33,25 @@ class columnController extends commonController
 				break;
 		}
 	}
+
+
+	public function indexList()
+    {
+        $this->layout = null;
+        $ename=in($_GET['col']);
+        if(empty($ename)) throw new Exception('栏目名不能为空~', 404);
+        $sortinfo=model('sort')->find("ename='{$ename}'",'id,name,ename,path,url,type,deep,method,tplist,keywords,description,extendid');
+        $path=$sortinfo['path'].','.$sortinfo['id'];
+        $deep=$sortinfo['deep']+1;
+        $this->col=$ename;
+        switch ($sortinfo['type']) {
+            case 1://文章
+                $this->newslist($sortinfo, $path, $deep,'news_list');
+                break;
+        }
+    }
+
+
         
 	public function content()
 	{
@@ -54,7 +73,7 @@ class columnController extends commonController
 		}
 	}
 
-	protected function newslist($sortinfo,$path,$deep)
+	protected function newslist($sortinfo,$path,$deep,$tpl='')
 	{
 		$listRows=empty($sortinfo['url'])?10:intval($sortinfo['url']);//每页显示的信息条数
         $where="(sort LIKE '{$path}%' OR exsort LIKE '%".$sortinfo['id']."%') AND ispass='1'";
@@ -111,7 +130,18 @@ class columnController extends commonController
 		$this->page=$this->pageShow($count);
 		$this->rootid=$this->getrootid($sortinfo['id']);//根节点id
 		$tp=explode(',', $sortinfo['tplist']);
-		$this->display($tp[0]);
+
+        $crumbs = "";
+        array_map(function($val) use (&$crumbs) {
+            $crumbs.= $val['name']." > ";
+        },$this->daohang);
+        $this->crumbs = trim($crumbs,"> ");
+
+        if(!empty($tpl)){
+		    $this->display($tpl);
+        }else{
+            $this->display($tp[0]);
+        }
 	}
 	
 	protected function newscon($ename,$id,$sid)
