@@ -7,15 +7,12 @@
     <link rel="stylesheet" href="__PUBLICAPP__/css/csbme/ui-select.css">
     <link rel="stylesheet" href="__PUBLICAPP__/css/csbme/flexslider.css">
     <link rel="stylesheet" href="__PUBLICAPP__/css/csbme/org-add.css">
-    <script src="http://www.csbme.org/themes/csbme/js/jquery.js"></script>
-    <script src="http://www.csbme.org/themes/csbme/js/ui-select.js"></script>
-    <script src="http://www.csbme.org/themes/csbme/js/test.js"></script><style type="text/css">input.styled { display: none; } select.styled { position: relative; width: 190px; opacity: 0; filter: alpha(opacity=0); z-index: 5; } .disabled { opacity: 0.5; filter: alpha(opacity=50); }</style>
-    <script src="http://www.csbme.org/themes/csbme/js/js.js"></script>
-    <script src="http://www.csbme.org/themes/csbme/js/org-add.js"></script>
-    <script src="http://www.csbme.org/themes/csbme/js/jquery.flexslider-min.js"></script>
-    <script src="http://www.csbme.org/themes/csbme/js/jquery.cxslide.min.js"></script>
-    <script src="http://www.csbme.org/themes/csbme/js/jquery.cxscroll.js"></script>
-    <script src="http://www.csbme.org/themes/csbme/js/nav.js"></script>
+    <style type="text/css">
+        input.styled { display: none; }
+        select.styled { position: relative; width: 190px; opacity: 0; filter: alpha(opacity=0); z-index: 5; }
+        .disabled { opacity: 0.5; filter: alpha(opacity=50); }
+    </style>
+
 
 </head>
 <body>
@@ -37,9 +34,6 @@
                 {/loop}
             </ul>
             <div class="clear"></div>
-            <div class="pagelist">
-                {$page}
-            </div>
           </div>
 
             <div><img src="__PUBLICAPP__/images/csbme/comadv.png"></div>
