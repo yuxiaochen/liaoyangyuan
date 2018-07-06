@@ -28,8 +28,11 @@
                <div class="border padding">
             <!--文章列表-->
             <ul class="commcontent">
-                {loop $alist $vo}
-                <li><a   href="{$vo['url']}" target="_blank" title="{$vo['title']}"><span>{date($vo['addtime'],Y-m-d)}</span><p>{$vo['title']}</p></a></li>
+                {loop $alist $key $vo}
+                   {if $key<=14}
+
+                <li><a  href="{$vo['url']}" target="_blank" title="{$vo['title']}"><span>{date($vo['addtime'],Y-m-d)}</span><p>[vo:title $len=40]</p></a></li>
+                     {/if}
                 {/loop}
             </ul>
             <div class="clear"></div>
