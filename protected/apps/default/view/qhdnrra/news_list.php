@@ -12,8 +12,7 @@
         select.styled { position: relative; width: 190px; opacity: 0; filter: alpha(opacity=0); z-index: 5; }
         .disabled { opacity: 0.5; filter: alpha(opacity=50); }
     </style>
-
-
+    <script type="text/javascript" src="__PUBLICAPP__/js/jquery-1.2.6.min.js"></script>
 </head>
 <body>
 <div class="container margin-top">

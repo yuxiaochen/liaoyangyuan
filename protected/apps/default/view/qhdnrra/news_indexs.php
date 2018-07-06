@@ -41,4 +41,9 @@
     function gotoUrl(col){
           document.getElementById("content").src="/index.php?r=default/column/indexList&col="+col;
     }
+    //自适应iframe高度
+    function IFrameReSize(){
+        var a = document.getElementById("content");
+        a.height = a.contentDocument.body.scrollHeight;
+    }
 </script>
