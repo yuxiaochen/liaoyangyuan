@@ -20,7 +20,7 @@
               <div class="left side" style="cursor: pointer; position: static;">
                   <ul class="parent">
                       {loop sorttree($sortlist) $v1}
-                         <li onclick="gotoUrl({$v1['ename']})"><a href="javascript:void(0)">{$v1['name']}</a></li>
+                         <li onclick="gotoUrl('{$v1['ename']}')"><a href="javascript:void(0)">{$v1['name']}</a></li>
                       {/loop}
                   </ul>
               </div>
