@@ -36,7 +36,7 @@
 <h1>[news:title $len=20]</h1>
 <h2>{date($news['addtime'],m-d)}
 </h2>
-<p>[news:description]... </p>
+<p>[news:description $len=40]... </p>
 </dd>
 </dl>
 </a>  
