@@ -19,14 +19,6 @@
     </div>
 </div>
 
- 
- <div class="mainL" style="width: 100%;margin-left: auto">
-        <div class="eventVoice clearfix">
-                        <div class="events fl clearfix">
-                            <div class="events_title"><b>{$sorts['100028']['name']}</b><span>{$sorts['100028']['ename']}</span><a class="more fr" href="{$sorts['100028']['url']}" target="_blank">更多</a>
-                            </div>
-                    <div class="fl">
-
 
 
 
