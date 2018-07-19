@@ -38,7 +38,7 @@
             <div class="clear"></div>
           </div>
 
-            <div><img src="__PUBLICAPP__/images/csbme/comadv.png"></div>
+            <!--<div><img src="__PUBLICAPP__/images/csbme/comadv.png"></div>-->
         </div>
            <div class="clear"></div>
        </div>
