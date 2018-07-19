@@ -31,9 +31,9 @@
 </head>
 <body>
 <div style="width:100%;background-image:url('__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_02.jpg'); background-repeat:repeat-x;margin-bottom: 10px;">
-    <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_04.jpg" style="padding-top:0px;">
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="__PUBLICAPP__/images/qhdnrra/qhdnrra_in--11_04.jpg" style="padding-top:0px;">
         <tr>
-            <td width="1175"><div align="right"><a href="/"><img src="__PUBLICAPP__/images/qhdnrra/logo.jpg" width="1145" height="131" border="0" /></a></div></td>
+            <td width="100%"><div align="right"><a href="/"><img src="__PUBLICAPP__/images/qhdnrra/logo.jpg" width="100%" height="131" border="0" /></a></div></td>
         </tr>
     </table>
 </div>

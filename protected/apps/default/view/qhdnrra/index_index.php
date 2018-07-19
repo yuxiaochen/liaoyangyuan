@@ -14,7 +14,7 @@
     </div>
 </div>
  
- <div class="mainL" style="width: 1200px;margin-left: auto">
+ <div class="mainL" style="width: 100%;margin-left: auto">
         <div class="eventVoice clearfix">
                         <div class="events fl clearfix">
                             <div class="events_title"><b>{$sorts['100028']['name']}</b><span>{$sorts['100028']['ename']}</span><a class="more fr" href="{$sorts['100028']['url']}" target="_blank">更多</a>
@@ -64,7 +64,7 @@
 
 <table   border="0" align="center" cellpadding="0" cellspacing="0" style="width: 1200px;margin-left: auto;">
     <tr>
-        <td width="280" valign="top" bgcolor="#FFFFFF">
+        <td width="33%" valign="top" bgcolor="#FFFFFF">
             <div class="yuevents fl clearfix">
                 <div class="events_title"><b>{$sorts['100030']['name']}</b>
                     <span>Events</span><a class="more fr" href="{$sorts['100030']['url']}" target="_blank">更多</a>
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </td>
-        <td width="280" valign="top" bgcolor="#FFFFFF">
+        <td width="33%" valign="top" bgcolor="#FFFFFF">
             <div class="yuevents fl clearfix">
                 <div class="events_title"><b>{$sorts['100031']['name']}</b>
                     <span>Events</span><a class="more fr" href="{$sorts['100031']['url']}" target="_blank">更多</a>
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </td>
-        <td width="280" valign="top" bgcolor="#FFFFFF">
+        <td width="33%" valign="top" bgcolor="#FFFFFF">
             <div class="yuevents fl clearfix">
                 <div class="events_title"><b>{$sorts['100032']['name']}</b>
                     <span>Events</span><a class="more fr" href="{$sorts['100032']['url']}" target="_blank">更多</a>
