@@ -32,7 +32,7 @@
 
 
 
-<div class="mainL" style="width: 100%;margin-left: auto">
+<div class="mainL" style="width: 1200px;margin-left: auto">
          <div class="news clearfix">
                         <div class="news_title"><b>{$sorts['100059']['name']}</b><span>News</span><a class="more fr" style="margin-right: 210px" href="{$sorts['100059']['url']}" target="_blank">更多</a></div>                    
                       <div class="newsL fl clearfix">
