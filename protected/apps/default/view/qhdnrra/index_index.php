@@ -1,4 +1,4 @@
-<<style type="text/css">
+<style type="text/css">
    .newsR{
     width: 380px;
    }
@@ -46,7 +46,7 @@
    <div class="newsR fl" style="margin-left: 80px; width:34%">
    <ul>
 {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100028) where=(ispass='1') limit=(8)}}     
-   <li><a href="[news:url]" title="[news:title]" target="_blank"> <span>{date($news['addtime'],m-d)}</span>[news:title]</a></li>
+   <li><a href="[news:url]" title="[news:title]" target="_blank"> <span>{date($news['addtime'],m-d)}</span>[news:title $len=25]</a></li>
 {/news}  
 
 </ul>
