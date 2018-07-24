@@ -43,10 +43,10 @@
 
 <script>_showDynClickBatch(['dynclicks_u7_3217','dynclicks_u7_3205','dynclicks_u7_3192','dynclicks_u7_3189','dynclicks_u7_3172','dynclicks_u7_3127','dynclicks_u7_3089','dynclicks_u7_3094','dynclicks_u7_3076'],[3217,3205,3192,3189,3172,3127,3089,3094,3076],"wbnews", 1405884961)</script>
  
-   <div class="newsR fl" style="margin-left: 80px;">
+   <div class="newsR fl" style="margin-left: 80px; width:34%">
    <ul>
 {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100028) where=(ispass='1') limit=(8)}}     
-   <li><a href="[news:url]" title="[news:title]" target="_blank"> <span>{date($news['addtime'],m-d)}</span>[news:title $len=20]...</a></li>
+   <li><a href="[news:url]" title="[news:title]" target="_blank"> <span>{date($news['addtime'],m-d)}</span>[news:title]</a></li>
 {/news}  
 
 </ul>
