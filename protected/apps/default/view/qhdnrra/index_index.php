@@ -19,14 +19,9 @@
     </div>
 </div>
 
-
-
-
-
-
-<div class="mainL" style="width: 1200px;margin-left: auto">
+<div class="mainL" style="width: 90%;margin-left: auto">
          <div class="news clearfix">
-                        <div class="news_title"><b>{$sorts['100059']['name']}</b><span>News</span><a class="more fr" style="margin-right: 210px" href="{$sorts['100059']['url']}" target="_blank">更多</a></div>                    
+                        <div class="news_title"><b>{$sorts['100059']['name']}</b><span>News</span><a class="more fr" style="margin-right: 210px" href="/index.php?r=default/column/index&col=news" target="_blank">更多</a></div>
                       <div class="newsL fl clearfix">
 {news:{table=(news) field=(id,title,color,picture,addtime,method,description) column=(100059) where=(ispass='1') limit=(2)}}   
    <div {if $news_i==1} class="newsLdl fl" {/if} {if $news_i==2} class="newsLdl fr" {/if} >
@@ -61,7 +56,7 @@
 
  
 
-<table   border="0" align="center" cellpadding="0" cellspacing="0" style="width: 1200px;margin-left: auto;">
+<table   border="0" align="center" cellpadding="0" cellspacing="0" style="width: 90%;margin-left: auto;">
     <tr>
         <td width="33%" valign="top" bgcolor="#FFFFFF">
             <div class="yuevents fl clearfix">
