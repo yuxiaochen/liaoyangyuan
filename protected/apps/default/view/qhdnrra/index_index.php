@@ -19,7 +19,7 @@
     </div>
 </div>
 
-<div class="mainL" style="width: 90%;margin-left: auto">
+<div class="mainL" style="width: 1180px;margin:0 auto">
          <div class="news clearfix">
                         <div class="news_title"><b>{$sorts['100059']['name']}</b><span>News</span><a class="more fr" style="margin-right: 210px" href="/index.php?r=default/column/index&col=news" target="_blank">更多</a></div>
                       <div class="newsL fl clearfix">
@@ -56,7 +56,7 @@
 
  
 
-<table   border="0" align="center" cellpadding="0" cellspacing="0" style="width: 90%;margin-left: auto;">
+<table   border="0" align="center" cellpadding="0" cellspacing="0" style="width: 1180px;margin:0 auto;">
     <tr>
         <td width="33%" valign="top" bgcolor="#FFFFFF">
             <div class="yuevents fl clearfix">
