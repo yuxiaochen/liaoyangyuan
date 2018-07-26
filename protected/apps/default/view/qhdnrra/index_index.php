@@ -18,10 +18,9 @@
         </div>
     </div>
 </div>
-
 <div class="mainL" style="width: 1180px;margin:0 auto">
          <div class="news clearfix">
-                        <div class="news_title"><b>{$sorts['100059']['name']}</b><span>News</span><a class="more fr" style="margin-right: 210px" href="/index.php?r=default/column/index&col=news" target="_blank">更多</a></div>
+                        <div class="news_title"><b>{$sorts['100059']['name']}</b><span>News</span><a class="more fr" style="margin-right: 0" href="/index.php?r=default/column/index&col=news" target="_blank">更多</a></div>
                       <div class="newsL fl clearfix">
 {news:{table=(news) field=(id,title,color,picture,addtime,method,description) column=(100059) where=(ispass='1') limit=(2)}}   
    <div {if $news_i==1} class="newsLdl fl" {/if} {if $news_i==2} class="newsLdl fr" {/if} >
@@ -43,7 +42,7 @@
 
 <script>_showDynClickBatch(['dynclicks_u7_3217','dynclicks_u7_3205','dynclicks_u7_3192','dynclicks_u7_3189','dynclicks_u7_3172','dynclicks_u7_3127','dynclicks_u7_3089','dynclicks_u7_3094','dynclicks_u7_3076'],[3217,3205,3192,3189,3172,3127,3089,3094,3076],"wbnews", 1405884961)</script>
  
-   <div class="newsR fl" style="margin-left: 80px; width:34%">
+   <div class="newsR fl" style="margin-left: 80px; width:44%">
    <ul>
 {news:{table=(news) field=(id,title,color,addtime,method,keywords,description) column=(100028) where=(ispass='1') limit=(8)}}     
    <li><a href="[news:url]" title="[news:title]" target="_blank"> <span>{date($news['addtime'],m-d)}</span>[news:title $len=25]</a></li>
